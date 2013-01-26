@@ -2,7 +2,6 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
-DROP SCHEMA IF EXISTS `iCommerce` ;
 CREATE SCHEMA IF NOT EXISTS `iCommerce` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
 USE `iCommerce` ;
 
@@ -141,8 +140,8 @@ CREATE  TABLE IF NOT EXISTS `iCommerce`.`Article` (
   `idCategorie` INT NOT NULL ,
   `idSousCategorie` INT NULL ,
   `idMarque` INT NOT NULL ,
-  `prixHT` DECIMAL(10) NOT NULL ,
-  `tauxTVA` DECIMAL(3) NOT NULL ,
+  `prixHT` DECIMAL(10,2) NOT NULL ,
+  `tauxTVA` DECIMAL(4,2) NOT NULL ,
   PRIMARY KEY (`idArticle`) ,
   INDEX `idCategorie_idx` (`idCategorie` ASC) ,
   INDEX `fkIdSousCategorie_idx` (`idSousCategorie` ASC) ,
@@ -176,7 +175,7 @@ CREATE  TABLE IF NOT EXISTS `iCommerce`.`Commentaire` (
   `idArticle` INT NOT NULL ,
   `idClient` INT NOT NULL ,
   `commentaireArticle` VARCHAR(500) NOT NULL ,
-  `noteArticle` DECIMAL(2) NOT NULL ,
+  `noteArticle` DECIMAL(3,1) NOT NULL ,
   PRIMARY KEY (`idCommentaire`) ,
   INDEX `fkIdArticle_idx` (`idArticle` ASC) ,
   INDEX `fkIdClient_idx` (`idClient` ASC) ,
@@ -201,7 +200,7 @@ DROP TABLE IF EXISTS `iCommerce`.`TypeLivraison` ;
 CREATE  TABLE IF NOT EXISTS `iCommerce`.`TypeLivraison` (
   `idTypeLivraison` INT NOT NULL ,
   `nomTypeLivraison` VARCHAR(45) NOT NULL ,
-  `prixTypeLivraison` DECIMAL(5) NOT NULL ,
+  `prixTypeLivraison` DECIMAL(5,2) NOT NULL ,
   PRIMARY KEY (`idTypeLivraison`) )
 ENGINE = InnoDB;
 
@@ -234,7 +233,7 @@ CREATE  TABLE IF NOT EXISTS `iCommerce`.`Commande` (
   `idTypeLivraison` INT NOT NULL ,
   `adresseLivraison` INT NOT NULL ,
   `adresseFacturation` INT NOT NULL ,
-  `prixLivraison` DECIMAL(5) NOT NULL ,
+  `prixLivraison` DECIMAL(5,2) NOT NULL ,
   PRIMARY KEY (`idCommande`) ,
   INDEX `fkIdClient_idx` (`idClient` ASC) ,
   INDEX `fkIdTypeLivraison_idx` (`idTypeLivraison` ASC) ,
@@ -278,8 +277,8 @@ CREATE  TABLE IF NOT EXISTS `iCommerce`.`ArticleCommande` (
   `idArticleCommande` INT NOT NULL AUTO_INCREMENT ,
   `idCommande` INT NOT NULL ,
   `idArticle` INT NOT NULL ,
-  `prixHT` DECIMAL(5) NOT NULL ,
-  `tauxTVA` DECIMAL(3) NOT NULL ,
+  `prixHT` DECIMAL(10,2) NOT NULL ,
+  `tauxTVA` DECIMAL(4,2) NOT NULL ,
   `quantite` INT NOT NULL ,
   PRIMARY KEY (`idArticleCommande`) ,
   INDEX `fkIdArticle_idx` (`idArticle` ASC) ,
