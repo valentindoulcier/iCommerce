@@ -21,6 +21,7 @@
     [_window release];
     [tabBar release];
     [super dealloc];
+
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

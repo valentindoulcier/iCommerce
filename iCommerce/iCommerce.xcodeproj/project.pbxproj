@@ -25,8 +25,8 @@
 		A7CF0CC016BD0E1000263C14 /* iCommerce.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CBF16BD0E1000263C14 /* iCommerce.png */; };
 		A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */; };
 		A7CF0CC516BD1ED200263C14 /* ListeSouhaitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */; };
-		A7CF0CCE16BD230E00263C14 /* EspacePersoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0CCC16BD230D00263C14 /* EspacePersoViewController.m */; };
-		A7CF0CCF16BD230E00263C14 /* EspacePersoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CCD16BD230E00263C14 /* EspacePersoViewController.xib */; };
+		A7FDFBB316BD3274006B41FA /* EspacePersoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */; };
+		A7FDFBB416BD3274006B41FA /* EspacePersoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,9 +55,9 @@
 		A7CF0CC116BD1ED200263C14 /* ListeSouhaitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeSouhaitsViewController.h; sourceTree = "<group>"; };
 		A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeSouhaitsViewController.m; sourceTree = "<group>"; };
 		A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListeSouhaitsViewController.xib; sourceTree = "<group>"; };
-		A7CF0CCB16BD230D00263C14 /* EspacePersoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EspacePersoViewController.h; path = ../EspacePersoViewController.h; sourceTree = "<group>"; };
-		A7CF0CCC16BD230D00263C14 /* EspacePersoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EspacePersoViewController.m; path = ../EspacePersoViewController.m; sourceTree = "<group>"; };
-		A7CF0CCD16BD230E00263C14 /* EspacePersoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EspacePersoViewController.xib; path = ../EspacePersoViewController.xib; sourceTree = "<group>"; };
+		A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspacePersoViewController.h; sourceTree = "<group>"; };
+		A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspacePersoViewController.m; sourceTree = "<group>"; };
+		A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EspacePersoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +116,11 @@
 				A7CF0CC116BD1ED200263C14 /* ListeSouhaitsViewController.h */,
 				A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */,
 				A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */,
-				A7CF0CCB16BD230D00263C14 /* EspacePersoViewController.h */,
-				A7CF0CCC16BD230D00263C14 /* EspacePersoViewController.m */,
-				A7CF0CCD16BD230E00263C14 /* EspacePersoViewController.xib */,
 				A70BF9B816BD095C00F2443E /* loupe@2x.png */,
 				A70BF9C216BD0B9C00F2443E /* home@2x.png */,
+				A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */,
+				A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */,
+				A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */,
 				A70BF99816BCFFB800F2443E /* Supporting Files */,
 			);
 			path = iCommerce;
@@ -201,7 +201,7 @@
 				A70BF9C316BD0B9C00F2443E /* home@2x.png in Resources */,
 				A7CF0CC016BD0E1000263C14 /* iCommerce.png in Resources */,
 				A7CF0CC516BD1ED200263C14 /* ListeSouhaitsViewController.xib in Resources */,
-				A7CF0CCF16BD230E00263C14 /* EspacePersoViewController.xib in Resources */,
+				A7FDFBB416BD3274006B41FA /* EspacePersoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +217,7 @@
 				A70BF9B116BD01E600F2443E /* AccueilViewController.m in Sources */,
 				A70BF9B616BD02C000F2443E /* RechercheViewController.m in Sources */,
 				A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */,
-				A7CF0CCE16BD230E00263C14 /* EspacePersoViewController.m in Sources */,
+				A7FDFBB316BD3274006B41FA /* EspacePersoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
