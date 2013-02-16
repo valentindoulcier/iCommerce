@@ -15,5 +15,6 @@
 @synthesize description = _description;
 @synthesize prixHT = _prixHT;
 @synthesize tauxTVA = _tauxTVA;
+@synthesize image = _image;
 
 @end

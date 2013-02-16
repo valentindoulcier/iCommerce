@@ -10,4 +10,6 @@
 
 @interface RechercheViewController : UIViewController
 
+- (IBAction)GoListArticle:(id)sender;
+
 @end

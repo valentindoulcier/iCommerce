@@ -15,5 +15,6 @@
 @property (strong, nonatomic)NSString *description;
 @property (strong, nonatomic)NSString *prixHT;
 @property (strong, nonatomic)NSString *tauxTVA;
+@property (strong, nonatomic)NSString *image;
 
 @end

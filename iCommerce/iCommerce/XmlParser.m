@@ -61,6 +61,10 @@ Article			*currentArticle;
     {
         currentArticle.tauxTVA = currentNodeContent;
     }
+    if ([elementname isEqualToString:@"photo"])
+    {
+        currentArticle.image = currentNodeContent;
+    }
     
 	if ([elementname isEqualToString:@"article"])
 	{

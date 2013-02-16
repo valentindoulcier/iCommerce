@@ -7,6 +7,7 @@
 //
 
 #import "RechercheViewController.h"
+#import "ListArticle.h"
 
 @interface RechercheViewController ()
 
@@ -33,6 +34,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)GoListArticle:(id)sender
+{
+    ListArticle *listArticle = [[ListArticle alloc] initWithNibName:@"ListArticle" bundle:nil];
+    
+    [UIView transitionWithView:self.view duration:1.0 options:UIViewAnimationOptionTransitionFlipFromRight animations:^{[self.view addSubview:listArticle.view];} completion:nil];
 }
 
 @end
