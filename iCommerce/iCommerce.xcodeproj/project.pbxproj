@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		349FE38816CF6F44009436A1 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FE38516CF6F44009436A1 /* Article.m */; };
+		349FE38916CF6F44009436A1 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FE38716CF6F44009436A1 /* XmlParser.m */; };
 		A70BF99216BCFFB800F2443E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70BF99116BCFFB800F2443E /* UIKit.framework */; };
 		A70BF99416BCFFB800F2443E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70BF99316BCFFB800F2443E /* Foundation.framework */; };
 		A70BF99616BCFFB800F2443E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70BF99516BCFFB800F2443E /* CoreGraphics.framework */; };
@@ -30,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		349FE38416CF6F44009436A1 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		349FE38516CF6F44009436A1 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		349FE38616CF6F44009436A1 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
+		349FE38716CF6F44009436A1 /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
 		A70BF98E16BCFFB800F2443E /* iCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70BF99116BCFFB800F2443E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A70BF99316BCFFB800F2443E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,23 +111,27 @@
 		A70BF99716BCFFB800F2443E /* iCommerce */ = {
 			isa = PBXGroup;
 			children = (
-				A70BF9A016BCFFB800F2443E /* AppDelegate.h */,
-				A70BF9A116BCFFB800F2443E /* AppDelegate.m */,
 				A70BF9AE16BD01E600F2443E /* AccueilViewController.h */,
 				A70BF9AF16BD01E600F2443E /* AccueilViewController.m */,
 				A70BF9B016BD01E600F2443E /* AccueilViewController.xib */,
-				A70BF9B316BD02C000F2443E /* RechercheViewController.h */,
-				A70BF9B416BD02C000F2443E /* RechercheViewController.m */,
-				A70BF9B516BD02C000F2443E /* RechercheViewController.xib */,
+				A70BF9A016BCFFB800F2443E /* AppDelegate.h */,
+				A70BF9A116BCFFB800F2443E /* AppDelegate.m */,
+				349FE38416CF6F44009436A1 /* Article.h */,
+				349FE38516CF6F44009436A1 /* Article.m */,
+				A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */,
+				A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */,
+				A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */,
+				A70BF9C216BD0B9C00F2443E /* home@2x.png */,
 				A7CF0CC116BD1ED200263C14 /* ListeSouhaitsViewController.h */,
 				A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */,
 				A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */,
 				A70BF9B816BD095C00F2443E /* loupe@2x.png */,
-				A70BF9C216BD0B9C00F2443E /* home@2x.png */,
-				A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */,
-				A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */,
-				A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */,
+				A70BF9B316BD02C000F2443E /* RechercheViewController.h */,
+				A70BF9B416BD02C000F2443E /* RechercheViewController.m */,
+				A70BF9B516BD02C000F2443E /* RechercheViewController.xib */,
 				A70BF99816BCFFB800F2443E /* Supporting Files */,
+				349FE38616CF6F44009436A1 /* XmlParser.h */,
+				349FE38716CF6F44009436A1 /* XmlParser.m */,
 			);
 			path = iCommerce;
 			sourceTree = "<group>";
@@ -218,6 +228,8 @@
 				A70BF9B616BD02C000F2443E /* RechercheViewController.m in Sources */,
 				A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */,
 				A7FDFBB316BD3274006B41FA /* EspacePersoViewController.m in Sources */,
+				349FE38816CF6F44009436A1 /* Article.m in Sources */,
+				349FE38916CF6F44009436A1 /* XmlParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
