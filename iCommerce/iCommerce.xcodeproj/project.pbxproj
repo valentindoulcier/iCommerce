@@ -32,6 +32,9 @@
 		A70BF9B716BD02C000F2443E /* RechercheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9B516BD02C000F2443E /* RechercheViewController.xib */; };
 		A70BF9B916BD095C00F2443E /* loupe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9B816BD095C00F2443E /* loupe@2x.png */; };
 		A70BF9C316BD0B9C00F2443E /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9C216BD0B9C00F2443E /* home@2x.png */; };
+		A780C0EF16CF8B5400652C08 /* AuthentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C0ED16CF8B5400652C08 /* AuthentificationViewController.m */; };
+		A780C0F016CF8B5400652C08 /* AuthentificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A780C0EE16CF8B5400652C08 /* AuthentificationViewController.xib */; };
+		A780C16B16CFA05900652C08 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A780C16A16CFA05900652C08 /* Storyboard.storyboard */; };
 		A7CF0CC016BD0E1000263C14 /* iCommerce.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CBF16BD0E1000263C14 /* iCommerce.png */; };
 		A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */; };
 		A7CF0CC516BD1ED200263C14 /* ListeSouhaitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */; };
@@ -75,6 +78,10 @@
 		A70BF9B516BD02C000F2443E /* RechercheViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechercheViewController.xib; sourceTree = "<group>"; };
 		A70BF9B816BD095C00F2443E /* loupe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loupe@2x.png"; sourceTree = "<group>"; };
 		A70BF9C216BD0B9C00F2443E /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		A780C0EC16CF8B5400652C08 /* AuthentificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthentificationViewController.h; sourceTree = "<group>"; };
+		A780C0ED16CF8B5400652C08 /* AuthentificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthentificationViewController.m; sourceTree = "<group>"; };
+		A780C0EE16CF8B5400652C08 /* AuthentificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthentificationViewController.xib; sourceTree = "<group>"; };
+		A780C16A16CFA05900652C08 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		A7CF0CBF16BD0E1000263C14 /* iCommerce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCommerce.png; sourceTree = "<group>"; };
 		A7CF0CC116BD1ED200263C14 /* ListeSouhaitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeSouhaitsViewController.h; sourceTree = "<group>"; };
 		A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeSouhaitsViewController.m; sourceTree = "<group>"; };
@@ -129,10 +136,16 @@
 		A70BF99716BCFFB800F2443E /* iCommerce */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				349FE3BB16CF9E05009436A1 /* htc-desire-s.png */,
 				349FE3BC16CF9E05009436A1 /* iphone-5.png */,
 				349FE3BD16CF9E05009436A1 /* routeur-wifi.png */,
 				349FE3BE16CF9E06009436A1 /* tv.png */,
+=======
+				A70BF9A016BCFFB800F2443E /* AppDelegate.h */,
+				A70BF9A116BCFFB800F2443E /* AppDelegate.m */,
+				A780C16A16CFA05900652C08 /* Storyboard.storyboard */,
+>>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
 				A70BF9AE16BD01E600F2443E /* AccueilViewController.h */,
 				A70BF9AF16BD01E600F2443E /* AccueilViewController.m */,
 				A70BF9B016BD01E600F2443E /* AccueilViewController.xib */,
@@ -154,9 +167,19 @@
 				A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */,
 				A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */,
 				A70BF9B816BD095C00F2443E /* loupe@2x.png */,
+<<<<<<< HEAD
 				A70BF9B316BD02C000F2443E /* RechercheViewController.h */,
 				A70BF9B416BD02C000F2443E /* RechercheViewController.m */,
 				A70BF9B516BD02C000F2443E /* RechercheViewController.xib */,
+=======
+				A70BF9C216BD0B9C00F2443E /* home@2x.png */,
+				A780C0EC16CF8B5400652C08 /* AuthentificationViewController.h */,
+				A780C0ED16CF8B5400652C08 /* AuthentificationViewController.m */,
+				A780C0EE16CF8B5400652C08 /* AuthentificationViewController.xib */,
+				A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */,
+				A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */,
+				A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */,
+>>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
 				A70BF99816BCFFB800F2443E /* Supporting Files */,
 				349FE38616CF6F44009436A1 /* XmlParser.h */,
 				349FE38716CF6F44009436A1 /* XmlParser.m */,
@@ -240,12 +263,17 @@
 				A7CF0CC016BD0E1000263C14 /* iCommerce.png in Resources */,
 				A7CF0CC516BD1ED200263C14 /* ListeSouhaitsViewController.xib in Resources */,
 				A7FDFBB416BD3274006B41FA /* EspacePersoViewController.xib in Resources */,
+<<<<<<< HEAD
 				349FE39816CF8A84009436A1 /* ListArticle.xib in Resources */,
 				349FE39F16CF8DA0009436A1 /* ArticleItem.xib in Resources */,
 				349FE3BF16CF9E06009436A1 /* htc-desire-s.png in Resources */,
 				349FE3C016CF9E06009436A1 /* iphone-5.png in Resources */,
 				349FE3C116CF9E06009436A1 /* routeur-wifi.png in Resources */,
 				349FE3C216CF9E06009436A1 /* tv.png in Resources */,
+=======
+				A780C0F016CF8B5400652C08 /* AuthentificationViewController.xib in Resources */,
+				A780C16B16CFA05900652C08 /* Storyboard.storyboard in Resources */,
+>>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +290,14 @@
 				A70BF9B616BD02C000F2443E /* RechercheViewController.m in Sources */,
 				A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */,
 				A7FDFBB316BD3274006B41FA /* EspacePersoViewController.m in Sources */,
+<<<<<<< HEAD
 				349FE38816CF6F44009436A1 /* Article.m in Sources */,
 				349FE38916CF6F44009436A1 /* XmlParser.m in Sources */,
 				349FE39716CF8A84009436A1 /* ListArticle.m in Sources */,
 				349FE39B16CF8D59009436A1 /* ArticleItem.m in Sources */,
+=======
+				A780C0EF16CF8B5400652C08 /* AuthentificationViewController.m in Sources */,
+>>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

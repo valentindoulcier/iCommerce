@@ -10,4 +10,7 @@
 
 @interface EspacePersoViewController : UITableViewController
 
+@property (nonatomic, retain) NSArray *monEspacePerso;
+@property (nonatomic, retain) NSArray *mesImages;
+
 @end

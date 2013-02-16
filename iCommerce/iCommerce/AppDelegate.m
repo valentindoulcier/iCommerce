@@ -10,7 +10,7 @@
 #import "AccueilViewController.h"
 #import "RechercheViewController.h"
 #import "ListeSouhaitsViewController.h"
-#import "EspacePersoViewController.h"
+#import "AuthentificationViewController.h"
 
 @implementation AppDelegate
 
@@ -37,15 +37,14 @@
     recherche.tabBarItem.title = @"Recherche";
 
     ListeSouhaitsViewController *listeSouhaits = [[ListeSouhaitsViewController alloc] initWithNibName:@"ListeSouhaitsViewController" bundle:nil];
-    listeSouhaits.tabBarItem.image = [UIImage imageNamed:@"loupe.png"];
+    listeSouhaits.tabBarItem.image = [UIImage imageNamed:@"home.png"];
     listeSouhaits.tabBarItem.title = @"Liste de souhaits";
     
-    EspacePersoViewController *espacePerso = [[EspacePersoViewController alloc] initWithNibName:@"EspacePersoViewController" bundle:nil];
-    espacePerso.tabBarItem.image = [UIImage imageNamed:@"home.png"];
-    espacePerso.tabBarItem.title = @"Espace Perso";
+    AuthentificationViewController *authentification = [[AuthentificationViewController alloc] initWithNibName:@"AuthentificationViewController" bundle:nil];
+    authentification.tabBarItem.image = [UIImage imageNamed:@"loupe.png"];
+    authentification.tabBarItem.title = @"Authentification";
     
-    
-    tabBar.viewControllers = [[NSArray alloc] initWithObjects:accueil, recherche, listeSouhaits, espacePerso, nil];
+    tabBar.viewControllers = [[NSArray alloc] initWithObjects:accueil, recherche, listeSouhaits, authentification, nil];
     
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.

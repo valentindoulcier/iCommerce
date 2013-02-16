@@ -14,6 +14,8 @@
 
 @implementation EspacePersoViewController
 
+@synthesize monEspacePerso, mesImages;
+
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -26,6 +28,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.navigationItem.title = @"Mon Espace Perso";
+    
+    monEspacePerso = [[NSArray alloc] initWithObjects:@"Mon Compte Client", @"Mes Commandes", @"Mon Carnet d'Adresses", @"Mes Retours SAV", @"Mes Avoirs", @"Mon Panier", @"Mes Alertes", nil];
+    
+    mesImages = [[NSArray alloc] initWithObjects:@"loupe.png", @"home.png", @"loupe.png", @"home.png", @"loupe.png", @"home.png", @"loupe.png", nil];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -44,16 +52,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [monEspacePerso count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -65,6 +71,8 @@
     }
     
     // Configure the cell...
+    cell.textLabel.text = [monEspacePerso objectAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:[mesImages objectAtIndex:indexPath.row]];
     
     return cell;
 }
