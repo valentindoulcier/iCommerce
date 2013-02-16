@@ -10,4 +10,8 @@
 
 @interface AuthentificationViewController : UIViewController
 
+@property (strong, nonatomic) UINavigationController *navigationEspacePerso;
+
+- (IBAction)Authentification:(id)sender;
+
 @end

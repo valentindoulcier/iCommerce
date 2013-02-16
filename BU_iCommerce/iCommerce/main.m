@@ -2,7 +2,7 @@
 //  main.m
 //  iCommerce
 //
-//  Created by Valentin DOULCIER on 16/02/13.
+//  Created by Valentin DOULCIER on 02/02/13.
 //  Copyright (c) 2013 Polytech. All rights reserved.
 //
 

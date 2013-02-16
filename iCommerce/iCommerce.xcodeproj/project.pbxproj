@@ -7,196 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		349FE38816CF6F44009436A1 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FE38516CF6F44009436A1 /* Article.m */; };
-		349FE38916CF6F44009436A1 /* XmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FE38716CF6F44009436A1 /* XmlParser.m */; };
-		349FE39716CF8A84009436A1 /* ListArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FE39516CF8A84009436A1 /* ListArticle.m */; };
-		349FE39816CF8A84009436A1 /* ListArticle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349FE39616CF8A84009436A1 /* ListArticle.xib */; };
-		349FE39B16CF8D59009436A1 /* ArticleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 349FE39A16CF8D59009436A1 /* ArticleItem.m */; };
-		349FE39F16CF8DA0009436A1 /* ArticleItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349FE39E16CF8DA0009436A1 /* ArticleItem.xib */; };
-		349FE3BF16CF9E06009436A1 /* htc-desire-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FE3BB16CF9E05009436A1 /* htc-desire-s.png */; };
-		349FE3C016CF9E06009436A1 /* iphone-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FE3BC16CF9E05009436A1 /* iphone-5.png */; };
-		349FE3C116CF9E06009436A1 /* routeur-wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FE3BD16CF9E05009436A1 /* routeur-wifi.png */; };
-		349FE3C216CF9E06009436A1 /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 349FE3BE16CF9E06009436A1 /* tv.png */; };
-		A70BF99216BCFFB800F2443E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70BF99116BCFFB800F2443E /* UIKit.framework */; };
-		A70BF99416BCFFB800F2443E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70BF99316BCFFB800F2443E /* Foundation.framework */; };
-		A70BF99616BCFFB800F2443E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A70BF99516BCFFB800F2443E /* CoreGraphics.framework */; };
-		A70BF99C16BCFFB800F2443E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A70BF99A16BCFFB800F2443E /* InfoPlist.strings */; };
-		A70BF99E16BCFFB800F2443E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A70BF99D16BCFFB800F2443E /* main.m */; };
-		A70BF9A216BCFFB800F2443E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A70BF9A116BCFFB800F2443E /* AppDelegate.m */; };
-		A70BF9A416BCFFB800F2443E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9A316BCFFB800F2443E /* Default.png */; };
-		A70BF9A616BCFFB800F2443E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9A516BCFFB800F2443E /* Default@2x.png */; };
-		A70BF9A816BCFFB800F2443E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9A716BCFFB800F2443E /* Default-568h@2x.png */; };
-		A70BF9B116BD01E600F2443E /* AccueilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70BF9AF16BD01E600F2443E /* AccueilViewController.m */; };
-		A70BF9B216BD01E600F2443E /* AccueilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9B016BD01E600F2443E /* AccueilViewController.xib */; };
-		A70BF9B616BD02C000F2443E /* RechercheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70BF9B416BD02C000F2443E /* RechercheViewController.m */; };
-		A70BF9B716BD02C000F2443E /* RechercheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9B516BD02C000F2443E /* RechercheViewController.xib */; };
-		A70BF9B916BD095C00F2443E /* loupe@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9B816BD095C00F2443E /* loupe@2x.png */; };
-		A70BF9C316BD0B9C00F2443E /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A70BF9C216BD0B9C00F2443E /* home@2x.png */; };
-		A780C0EF16CF8B5400652C08 /* AuthentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C0ED16CF8B5400652C08 /* AuthentificationViewController.m */; };
-		A780C0F016CF8B5400652C08 /* AuthentificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A780C0EE16CF8B5400652C08 /* AuthentificationViewController.xib */; };
-		A780C16B16CFA05900652C08 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A780C16A16CFA05900652C08 /* Storyboard.storyboard */; };
-		A7CF0CC016BD0E1000263C14 /* iCommerce.png in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CBF16BD0E1000263C14 /* iCommerce.png */; };
-		A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */; };
-		A7CF0CC516BD1ED200263C14 /* ListeSouhaitsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */; };
-		A7FDFBB316BD3274006B41FA /* EspacePersoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */; };
-		A7FDFBB416BD3274006B41FA /* EspacePersoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */; };
+		A780C13D16CFA02200652C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13C16CFA02200652C08 /* UIKit.framework */; };
+		A780C13F16CFA02200652C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13E16CFA02200652C08 /* Foundation.framework */; };
+		A780C14116CFA02200652C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C14016CFA02200652C08 /* CoreGraphics.framework */; };
+		A780C14716CFA02200652C08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A780C14516CFA02200652C08 /* InfoPlist.strings */; };
+		A780C14916CFA02200652C08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C14816CFA02200652C08 /* main.m */; };
+		A780C14D16CFA02200652C08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C14C16CFA02200652C08 /* AppDelegate.m */; };
+		A780C14F16CFA02200652C08 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A780C14E16CFA02200652C08 /* Default.png */; };
+		A780C15116CFA02200652C08 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A780C15016CFA02200652C08 /* Default@2x.png */; };
+		A780C15316CFA02200652C08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A780C15216CFA02200652C08 /* Default-568h@2x.png */; };
+		A780C15616CFA02200652C08 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A780C15416CFA02200652C08 /* MainStoryboard.storyboard */; };
+		A780C16E16CFA36800652C08 /* AuthentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C16D16CFA36800652C08 /* AuthentificationViewController.m */; };
+		A780C17116CFA3D700652C08 /* EspacePersoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C17016CFA3D700652C08 /* EspacePersoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		349FE38416CF6F44009436A1 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
-		349FE38516CF6F44009436A1 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
-		349FE38616CF6F44009436A1 /* XmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlParser.h; sourceTree = "<group>"; };
-		349FE38716CF6F44009436A1 /* XmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlParser.m; sourceTree = "<group>"; };
-		349FE39416CF8A84009436A1 /* ListArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListArticle.h; sourceTree = "<group>"; };
-		349FE39516CF8A84009436A1 /* ListArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListArticle.m; sourceTree = "<group>"; };
-		349FE39616CF8A84009436A1 /* ListArticle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListArticle.xib; sourceTree = "<group>"; };
-		349FE39916CF8D59009436A1 /* ArticleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleItem.h; sourceTree = "<group>"; };
-		349FE39A16CF8D59009436A1 /* ArticleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleItem.m; sourceTree = "<group>"; };
-		349FE39E16CF8DA0009436A1 /* ArticleItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleItem.xib; sourceTree = "<group>"; };
-		349FE3BB16CF9E05009436A1 /* htc-desire-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "htc-desire-s.png"; sourceTree = "<group>"; };
-		349FE3BC16CF9E05009436A1 /* iphone-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-5.png"; sourceTree = "<group>"; };
-		349FE3BD16CF9E05009436A1 /* routeur-wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "routeur-wifi.png"; sourceTree = "<group>"; };
-		349FE3BE16CF9E06009436A1 /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
-		A70BF98E16BCFFB800F2443E /* iCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A70BF99116BCFFB800F2443E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A70BF99316BCFFB800F2443E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A70BF99516BCFFB800F2443E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A70BF99916BCFFB800F2443E /* iCommerce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCommerce-Info.plist"; sourceTree = "<group>"; };
-		A70BF99B16BCFFB800F2443E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A70BF99D16BCFFB800F2443E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A70BF99F16BCFFB800F2443E /* iCommerce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCommerce-Prefix.pch"; sourceTree = "<group>"; };
-		A70BF9A016BCFFB800F2443E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A70BF9A116BCFFB800F2443E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A70BF9A316BCFFB800F2443E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A70BF9A516BCFFB800F2443E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		A70BF9A716BCFFB800F2443E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A70BF9AE16BD01E600F2443E /* AccueilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccueilViewController.h; sourceTree = "<group>"; };
-		A70BF9AF16BD01E600F2443E /* AccueilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccueilViewController.m; sourceTree = "<group>"; };
-		A70BF9B016BD01E600F2443E /* AccueilViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccueilViewController.xib; sourceTree = "<group>"; };
-		A70BF9B316BD02C000F2443E /* RechercheViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechercheViewController.h; sourceTree = "<group>"; };
-		A70BF9B416BD02C000F2443E /* RechercheViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechercheViewController.m; sourceTree = "<group>"; };
-		A70BF9B516BD02C000F2443E /* RechercheViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RechercheViewController.xib; sourceTree = "<group>"; };
-		A70BF9B816BD095C00F2443E /* loupe@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loupe@2x.png"; sourceTree = "<group>"; };
-		A70BF9C216BD0B9C00F2443E /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
-		A780C0EC16CF8B5400652C08 /* AuthentificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthentificationViewController.h; sourceTree = "<group>"; };
-		A780C0ED16CF8B5400652C08 /* AuthentificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthentificationViewController.m; sourceTree = "<group>"; };
-		A780C0EE16CF8B5400652C08 /* AuthentificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthentificationViewController.xib; sourceTree = "<group>"; };
-		A780C16A16CFA05900652C08 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		A7CF0CBF16BD0E1000263C14 /* iCommerce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iCommerce.png; sourceTree = "<group>"; };
-		A7CF0CC116BD1ED200263C14 /* ListeSouhaitsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeSouhaitsViewController.h; sourceTree = "<group>"; };
-		A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeSouhaitsViewController.m; sourceTree = "<group>"; };
-		A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListeSouhaitsViewController.xib; sourceTree = "<group>"; };
-		A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspacePersoViewController.h; sourceTree = "<group>"; };
-		A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspacePersoViewController.m; sourceTree = "<group>"; };
-		A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EspacePersoViewController.xib; sourceTree = "<group>"; };
+		A780C13916CFA02200652C08 /* iCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A780C13C16CFA02200652C08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A780C13E16CFA02200652C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A780C14016CFA02200652C08 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A780C14416CFA02200652C08 /* iCommerce-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCommerce-Info.plist"; sourceTree = "<group>"; };
+		A780C14616CFA02200652C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A780C14816CFA02200652C08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A780C14A16CFA02200652C08 /* iCommerce-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCommerce-Prefix.pch"; sourceTree = "<group>"; };
+		A780C14B16CFA02200652C08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A780C14C16CFA02200652C08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A780C14E16CFA02200652C08 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A780C15016CFA02200652C08 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A780C15216CFA02200652C08 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A780C15516CFA02200652C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A780C16C16CFA36800652C08 /* AuthentificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthentificationViewController.h; sourceTree = "<group>"; };
+		A780C16D16CFA36800652C08 /* AuthentificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthentificationViewController.m; sourceTree = "<group>"; };
+		A780C16F16CFA3D700652C08 /* EspacePersoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspacePersoViewController.h; sourceTree = "<group>"; };
+		A780C17016CFA3D700652C08 /* EspacePersoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspacePersoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A70BF98B16BCFFB800F2443E /* Frameworks */ = {
+		A780C13616CFA02200652C08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70BF99216BCFFB800F2443E /* UIKit.framework in Frameworks */,
-				A70BF99416BCFFB800F2443E /* Foundation.framework in Frameworks */,
-				A70BF99616BCFFB800F2443E /* CoreGraphics.framework in Frameworks */,
+				A780C13D16CFA02200652C08 /* UIKit.framework in Frameworks */,
+				A780C13F16CFA02200652C08 /* Foundation.framework in Frameworks */,
+				A780C14116CFA02200652C08 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A70BF98516BCFFB800F2443E = {
+		A780C13016CFA02200652C08 = {
 			isa = PBXGroup;
 			children = (
-				A7CF0CBF16BD0E1000263C14 /* iCommerce.png */,
-				A70BF99716BCFFB800F2443E /* iCommerce */,
-				A70BF99016BCFFB800F2443E /* Frameworks */,
-				A70BF98F16BCFFB800F2443E /* Products */,
+				A780C14216CFA02200652C08 /* iCommerce */,
+				A780C13B16CFA02200652C08 /* Frameworks */,
+				A780C13A16CFA02200652C08 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A70BF98F16BCFFB800F2443E /* Products */ = {
+		A780C13A16CFA02200652C08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A70BF98E16BCFFB800F2443E /* iCommerce.app */,
+				A780C13916CFA02200652C08 /* iCommerce.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A70BF99016BCFFB800F2443E /* Frameworks */ = {
+		A780C13B16CFA02200652C08 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A70BF99116BCFFB800F2443E /* UIKit.framework */,
-				A70BF99316BCFFB800F2443E /* Foundation.framework */,
-				A70BF99516BCFFB800F2443E /* CoreGraphics.framework */,
+				A780C13C16CFA02200652C08 /* UIKit.framework */,
+				A780C13E16CFA02200652C08 /* Foundation.framework */,
+				A780C14016CFA02200652C08 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A70BF99716BCFFB800F2443E /* iCommerce */ = {
+		A780C14216CFA02200652C08 /* iCommerce */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				349FE3BB16CF9E05009436A1 /* htc-desire-s.png */,
-				349FE3BC16CF9E05009436A1 /* iphone-5.png */,
-				349FE3BD16CF9E05009436A1 /* routeur-wifi.png */,
-				349FE3BE16CF9E06009436A1 /* tv.png */,
-=======
-				A70BF9A016BCFFB800F2443E /* AppDelegate.h */,
-				A70BF9A116BCFFB800F2443E /* AppDelegate.m */,
-				A780C16A16CFA05900652C08 /* Storyboard.storyboard */,
->>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
-				A70BF9AE16BD01E600F2443E /* AccueilViewController.h */,
-				A70BF9AF16BD01E600F2443E /* AccueilViewController.m */,
-				A70BF9B016BD01E600F2443E /* AccueilViewController.xib */,
-				A70BF9A016BCFFB800F2443E /* AppDelegate.h */,
-				A70BF9A116BCFFB800F2443E /* AppDelegate.m */,
-				349FE38416CF6F44009436A1 /* Article.h */,
-				349FE38516CF6F44009436A1 /* Article.m */,
-				349FE39916CF8D59009436A1 /* ArticleItem.h */,
-				349FE39A16CF8D59009436A1 /* ArticleItem.m */,
-				349FE39E16CF8DA0009436A1 /* ArticleItem.xib */,
-				A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */,
-				A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */,
-				A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */,
-				A70BF9C216BD0B9C00F2443E /* home@2x.png */,
-				349FE39416CF8A84009436A1 /* ListArticle.h */,
-				349FE39516CF8A84009436A1 /* ListArticle.m */,
-				349FE39616CF8A84009436A1 /* ListArticle.xib */,
-				A7CF0CC116BD1ED200263C14 /* ListeSouhaitsViewController.h */,
-				A7CF0CC216BD1ED200263C14 /* ListeSouhaitsViewController.m */,
-				A7CF0CC316BD1ED200263C14 /* ListeSouhaitsViewController.xib */,
-				A70BF9B816BD095C00F2443E /* loupe@2x.png */,
-<<<<<<< HEAD
-				A70BF9B316BD02C000F2443E /* RechercheViewController.h */,
-				A70BF9B416BD02C000F2443E /* RechercheViewController.m */,
-				A70BF9B516BD02C000F2443E /* RechercheViewController.xib */,
-=======
-				A70BF9C216BD0B9C00F2443E /* home@2x.png */,
-				A780C0EC16CF8B5400652C08 /* AuthentificationViewController.h */,
-				A780C0ED16CF8B5400652C08 /* AuthentificationViewController.m */,
-				A780C0EE16CF8B5400652C08 /* AuthentificationViewController.xib */,
-				A7FDFBB016BD3274006B41FA /* EspacePersoViewController.h */,
-				A7FDFBB116BD3274006B41FA /* EspacePersoViewController.m */,
-				A7FDFBB216BD3274006B41FA /* EspacePersoViewController.xib */,
->>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
-				A70BF99816BCFFB800F2443E /* Supporting Files */,
-				349FE38616CF6F44009436A1 /* XmlParser.h */,
-				349FE38716CF6F44009436A1 /* XmlParser.m */,
+				A780C14B16CFA02200652C08 /* AppDelegate.h */,
+				A780C14C16CFA02200652C08 /* AppDelegate.m */,
+				A780C15416CFA02200652C08 /* MainStoryboard.storyboard */,
+				A780C16C16CFA36800652C08 /* AuthentificationViewController.h */,
+				A780C16D16CFA36800652C08 /* AuthentificationViewController.m */,
+				A780C16F16CFA3D700652C08 /* EspacePersoViewController.h */,
+				A780C17016CFA3D700652C08 /* EspacePersoViewController.m */,
+				A780C14316CFA02200652C08 /* Supporting Files */,
 			);
 			path = iCommerce;
 			sourceTree = "<group>";
 		};
-		A70BF99816BCFFB800F2443E /* Supporting Files */ = {
+		A780C14316CFA02200652C08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A70BF99916BCFFB800F2443E /* iCommerce-Info.plist */,
-				A70BF99A16BCFFB800F2443E /* InfoPlist.strings */,
-				A70BF99D16BCFFB800F2443E /* main.m */,
-				A70BF99F16BCFFB800F2443E /* iCommerce-Prefix.pch */,
-				A70BF9A316BCFFB800F2443E /* Default.png */,
-				A70BF9A516BCFFB800F2443E /* Default@2x.png */,
-				A70BF9A716BCFFB800F2443E /* Default-568h@2x.png */,
+				A780C14416CFA02200652C08 /* iCommerce-Info.plist */,
+				A780C14516CFA02200652C08 /* InfoPlist.strings */,
+				A780C14816CFA02200652C08 /* main.m */,
+				A780C14A16CFA02200652C08 /* iCommerce-Prefix.pch */,
+				A780C14E16CFA02200652C08 /* Default.png */,
+				A780C15016CFA02200652C08 /* Default@2x.png */,
+				A780C15216CFA02200652C08 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A70BF98D16BCFFB800F2443E /* iCommerce */ = {
+		A780C13816CFA02200652C08 /* iCommerce */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A70BF9AB16BCFFB800F2443E /* Build configuration list for PBXNativeTarget "iCommerce" */;
+			buildConfigurationList = A780C16716CFA02200652C08 /* Build configuration list for PBXNativeTarget "iCommerce" */;
 			buildPhases = (
-				A70BF98A16BCFFB800F2443E /* Sources */,
-				A70BF98B16BCFFB800F2443E /* Frameworks */,
-				A70BF98C16BCFFB800F2443E /* Resources */,
+				A780C13516CFA02200652C08 /* Sources */,
+				A780C13616CFA02200652C08 /* Frameworks */,
+				A780C13716CFA02200652C08 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -218,104 +129,85 @@
 			);
 			name = iCommerce;
 			productName = iCommerce;
-			productReference = A70BF98E16BCFFB800F2443E /* iCommerce.app */;
+			productReference = A780C13916CFA02200652C08 /* iCommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A70BF98616BCFFB800F2443E /* Project object */ = {
+		A780C13116CFA02200652C08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Polytech;
 			};
-			buildConfigurationList = A70BF98916BCFFB800F2443E /* Build configuration list for PBXProject "iCommerce" */;
+			buildConfigurationList = A780C13416CFA02200652C08 /* Build configuration list for PBXProject "iCommerce" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = A70BF98516BCFFB800F2443E;
-			productRefGroup = A70BF98F16BCFFB800F2443E /* Products */;
+			mainGroup = A780C13016CFA02200652C08;
+			productRefGroup = A780C13A16CFA02200652C08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A70BF98D16BCFFB800F2443E /* iCommerce */,
+				A780C13816CFA02200652C08 /* iCommerce */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A70BF98C16BCFFB800F2443E /* Resources */ = {
+		A780C13716CFA02200652C08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70BF99C16BCFFB800F2443E /* InfoPlist.strings in Resources */,
-				A70BF9A416BCFFB800F2443E /* Default.png in Resources */,
-				A70BF9A616BCFFB800F2443E /* Default@2x.png in Resources */,
-				A70BF9A816BCFFB800F2443E /* Default-568h@2x.png in Resources */,
-				A70BF9B216BD01E600F2443E /* AccueilViewController.xib in Resources */,
-				A70BF9B716BD02C000F2443E /* RechercheViewController.xib in Resources */,
-				A70BF9B916BD095C00F2443E /* loupe@2x.png in Resources */,
-				A70BF9C316BD0B9C00F2443E /* home@2x.png in Resources */,
-				A7CF0CC016BD0E1000263C14 /* iCommerce.png in Resources */,
-				A7CF0CC516BD1ED200263C14 /* ListeSouhaitsViewController.xib in Resources */,
-				A7FDFBB416BD3274006B41FA /* EspacePersoViewController.xib in Resources */,
-<<<<<<< HEAD
-				349FE39816CF8A84009436A1 /* ListArticle.xib in Resources */,
-				349FE39F16CF8DA0009436A1 /* ArticleItem.xib in Resources */,
-				349FE3BF16CF9E06009436A1 /* htc-desire-s.png in Resources */,
-				349FE3C016CF9E06009436A1 /* iphone-5.png in Resources */,
-				349FE3C116CF9E06009436A1 /* routeur-wifi.png in Resources */,
-				349FE3C216CF9E06009436A1 /* tv.png in Resources */,
-=======
-				A780C0F016CF8B5400652C08 /* AuthentificationViewController.xib in Resources */,
-				A780C16B16CFA05900652C08 /* Storyboard.storyboard in Resources */,
->>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
+				A780C14716CFA02200652C08 /* InfoPlist.strings in Resources */,
+				A780C14F16CFA02200652C08 /* Default.png in Resources */,
+				A780C15116CFA02200652C08 /* Default@2x.png in Resources */,
+				A780C15316CFA02200652C08 /* Default-568h@2x.png in Resources */,
+				A780C15616CFA02200652C08 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A70BF98A16BCFFB800F2443E /* Sources */ = {
+		A780C13516CFA02200652C08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A70BF99E16BCFFB800F2443E /* main.m in Sources */,
-				A70BF9A216BCFFB800F2443E /* AppDelegate.m in Sources */,
-				A70BF9B116BD01E600F2443E /* AccueilViewController.m in Sources */,
-				A70BF9B616BD02C000F2443E /* RechercheViewController.m in Sources */,
-				A7CF0CC416BD1ED200263C14 /* ListeSouhaitsViewController.m in Sources */,
-				A7FDFBB316BD3274006B41FA /* EspacePersoViewController.m in Sources */,
-<<<<<<< HEAD
-				349FE38816CF6F44009436A1 /* Article.m in Sources */,
-				349FE38916CF6F44009436A1 /* XmlParser.m in Sources */,
-				349FE39716CF8A84009436A1 /* ListArticle.m in Sources */,
-				349FE39B16CF8D59009436A1 /* ArticleItem.m in Sources */,
-=======
-				A780C0EF16CF8B5400652C08 /* AuthentificationViewController.m in Sources */,
->>>>>>> [ iCommerce ] Ajout Tab - Espace Perso
+				A780C14916CFA02200652C08 /* main.m in Sources */,
+				A780C14D16CFA02200652C08 /* AppDelegate.m in Sources */,
+				A780C16E16CFA36800652C08 /* AuthentificationViewController.m in Sources */,
+				A780C17116CFA3D700652C08 /* EspacePersoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A70BF99A16BCFFB800F2443E /* InfoPlist.strings */ = {
+		A780C14516CFA02200652C08 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A70BF99B16BCFFB800F2443E /* en */,
+				A780C14616CFA02200652C08 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A780C15416CFA02200652C08 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A780C15516CFA02200652C08 /* en */,
+			);
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A70BF9A916BCFFB800F2443E /* Debug */ = {
+		A780C16516CFA02200652C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		A70BF9AA16BCFFB800F2443E /* Release */ = {
+		A780C16616CFA02200652C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,25 +261,23 @@
 			};
 			name = Release;
 		};
-		A70BF9AC16BCFFB800F2443E /* Debug */ = {
+		A780C16816CFA02200652C08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCommerce/iCommerce-Prefix.pch";
 				INFOPLIST_FILE = "iCommerce/iCommerce-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		A70BF9AD16BCFFB800F2443E /* Release */ = {
+		A780C16916CFA02200652C08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iCommerce/iCommerce-Prefix.pch";
 				INFOPLIST_FILE = "iCommerce/iCommerce-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -396,25 +286,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A70BF98916BCFFB800F2443E /* Build configuration list for PBXProject "iCommerce" */ = {
+		A780C13416CFA02200652C08 /* Build configuration list for PBXProject "iCommerce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70BF9A916BCFFB800F2443E /* Debug */,
-				A70BF9AA16BCFFB800F2443E /* Release */,
+				A780C16516CFA02200652C08 /* Debug */,
+				A780C16616CFA02200652C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A70BF9AB16BCFFB800F2443E /* Build configuration list for PBXNativeTarget "iCommerce" */ = {
+		A780C16716CFA02200652C08 /* Build configuration list for PBXNativeTarget "iCommerce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70BF9AC16BCFFB800F2443E /* Debug */,
-				A70BF9AD16BCFFB800F2443E /* Release */,
+				A780C16816CFA02200652C08 /* Debug */,
+				A780C16916CFA02200652C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A70BF98616BCFFB800F2443E /* Project object */;
+	rootObject = A780C13116CFA02200652C08 /* Project object */;
 }

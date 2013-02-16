@@ -2,26 +2,58 @@
 //  AppDelegate.m
 //  iCommerce
 //
-//  Created by Valentin DOULCIER on 16/02/13.
+//  Created by Valentin DOULCIER on 02/02/13.
 //  Copyright (c) 2013 Polytech. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "AccueilViewController.h"
+#import "RechercheViewController.h"
+#import "ListeSouhaitsViewController.h"
+#import "AuthentificationViewController.h"
 
 @implementation AppDelegate
+
+@synthesize window = _window, tabBar;
 
 - (void)dealloc
 {
     [_window release];
+    [tabBar release];
     [super dealloc];
+
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    tabBar = [[UITabBarController alloc] init];
+    
+    AccueilViewController *accueil = [[AccueilViewController alloc] initWithNibName:@"AccueilViewController" bundle:nil];
+    accueil.tabBarItem.image = [UIImage imageNamed:@"home.png"];
+    accueil.tabBarItem.title = @"Accueil";
+    
+    RechercheViewController *recherche = [[RechercheViewController alloc] initWithNibName:@"RechercheViewController" bundle:nil];
+    recherche.tabBarItem.image = [UIImage imageNamed:@"loupe.png"];
+    recherche.tabBarItem.title = @"Recherche";
+
+    ListeSouhaitsViewController *listeSouhaits = [[ListeSouhaitsViewController alloc] initWithNibName:@"ListeSouhaitsViewController" bundle:nil];
+    listeSouhaits.tabBarItem.image = [UIImage imageNamed:@"home.png"];
+    listeSouhaits.tabBarItem.title = @"Liste de souhaits";
+    
+    AuthentificationViewController *authentification = [[AuthentificationViewController alloc] initWithNibName:@"AuthentificationViewController" bundle:nil];
+    authentification.tabBarItem.image = [UIImage imageNamed:@"loupe.png"];
+    authentification.tabBarItem.title = @"Authentification";
+    
+    tabBar.viewControllers = [[NSArray alloc] initWithObjects:accueil, recherche, listeSouhaits, authentification, nil];
+    
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = tabBar;
+    [self.window makeKeyAndVisible];
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
