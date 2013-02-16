@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34527FBD16CFDD97003C0A9D /* ArticleXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */; };
+		34527FC016CFDDFB003C0A9D /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 34527FBF16CFDDFB003C0A9D /* Article.m */; };
 		A780C13D16CFA02200652C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13C16CFA02200652C08 /* UIKit.framework */; };
 		A780C13F16CFA02200652C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13E16CFA02200652C08 /* Foundation.framework */; };
 		A780C14116CFA02200652C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C14016CFA02200652C08 /* CoreGraphics.framework */; };
@@ -22,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleXMLParser.h; sourceTree = "<group>"; };
+		34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleXMLParser.m; sourceTree = "<group>"; };
+		34527FBE16CFDDFB003C0A9D /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		34527FBF16CFDDFB003C0A9D /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		A780C13916CFA02200652C08 /* iCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A780C13C16CFA02200652C08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A780C13E16CFA02200652C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,6 +100,10 @@
 				A780C16F16CFA3D700652C08 /* EspacePersoViewController.h */,
 				A780C17016CFA3D700652C08 /* EspacePersoViewController.m */,
 				A780C14316CFA02200652C08 /* Supporting Files */,
+				34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */,
+				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
+				34527FBE16CFDDFB003C0A9D /* Article.h */,
+				34527FBF16CFDDFB003C0A9D /* Article.m */,
 			);
 			path = iCommerce;
 			sourceTree = "<group>";
@@ -182,6 +192,8 @@
 				A780C14D16CFA02200652C08 /* AppDelegate.m in Sources */,
 				A780C16E16CFA36800652C08 /* AuthentificationViewController.m in Sources */,
 				A780C17116CFA3D700652C08 /* EspacePersoViewController.m in Sources */,
+				34527FBD16CFDD97003C0A9D /* ArticleXMLParser.m in Sources */,
+				34527FC016CFDDFB003C0A9D /* Article.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +314,7 @@
 				A780C16916CFA02200652C08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
