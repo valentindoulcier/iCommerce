@@ -7,12 +7,19 @@
 //
 
 #import "ListeArticlesViewController.h"
+#import "ArticleXMLParser.h"
+#import "Article.h"
+#import "ArticleItemTableViewCell.h"
 
 @interface ListeArticlesViewController ()
 
 @end
 
 @implementation ListeArticlesViewController
+
+@synthesize ArticleTableView;
+
+ArticleXMLParser *xmlParser;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,6 +33,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://icommerce.no-ip.org/listArticle.php"];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -42,26 +51,45 @@
 
 #pragma mark - Table view data source
 
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 65;
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [[xmlParser articles] count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"ArticleItem";
+	Article *currentArticle = [[xmlParser articles] objectAtIndex:indexPath.row];
+    ArticleItemTableViewCell *cell = (ArticleItemTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) {
+        NSArray *xib = [[NSBundle mainBundle] loadNibNamed:@"ArticleItemTableViewCell" owner:self options:nil];
+        
+        for (id oneObject in xib) {
+            if ([oneObject isKindOfClass:[ArticleItemTableViewCell class]]) {
+                cell = (ArticleItemTableViewCell *) oneObject;
+            }
+        }
+    }
     
     // Configure the cell...
+    
+    cell.nomArticle.text = [currentArticle nomArticle];
+    cell.description.text = [currentArticle description];
+    cell.prix.text = [[currentArticle prixHT] stringByAppendingString:@" €"];
+    cell.image.image = [UIImage imageNamed:[currentArticle image]];
     
     return cell;
 }
@@ -119,4 +147,9 @@
      */
 }
 
+- (void)dealloc {
+    [ArticleTableView release];
+    [xmlParser release];
+    [super dealloc];
+}
 @end

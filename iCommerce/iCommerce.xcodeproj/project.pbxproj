@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		34527FBD16CFDD97003C0A9D /* ArticleXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */; };
 		34527FC016CFDDFB003C0A9D /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 34527FBF16CFDDFB003C0A9D /* Article.m */; };
-=======
+		346C285A16CFF23500D1BE1D /* ArticleItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C285916CFF23500D1BE1D /* ArticleItemTableViewCell.m */; };
+		346C285C16CFF25900D1BE1D /* ArticleItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346C285B16CFF25900D1BE1D /* ArticleItemTableViewCell.xib */; };
+		346C286716CFF80D00D1BE1D /* avion@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C285D16CFF80D00D1BE1D /* avion@2x.png */; };
+		346C286816CFF80D00D1BE1D /* bateau@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C285E16CFF80D00D1BE1D /* bateau@2x.png */; };
+		346C286916CFF80D00D1BE1D /* bijoux@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C285F16CFF80D00D1BE1D /* bijoux@2x.png */; };
+		346C286A16CFF80D00D1BE1D /* helico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286016CFF80D00D1BE1D /* helico@2x.png */; };
+		346C286B16CFF80D00D1BE1D /* maison@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286116CFF80D00D1BE1D /* maison@2x.png */; };
+		346C286C16CFF80D00D1BE1D /* mobilier@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286216CFF80D00D1BE1D /* mobilier@2x.png */; };
+		346C286D16CFF80D00D1BE1D /* montre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286316CFF80D00D1BE1D /* montre@2x.png */; };
+		346C286E16CFF80D00D1BE1D /* moto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286416CFF80D00D1BE1D /* moto@2x.png */; };
+		346C286F16CFF80D00D1BE1D /* voiture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286516CFF80D00D1BE1D /* voiture@2x.png */; };
+		346C287016CFF80D00D1BE1D /* voyage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286616CFF80D00D1BE1D /* voyage@2x.png */; };
 		A744C31916CFE59800DD721F /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744C31816CFE59800DD721F /* CategoriesViewController.m */; };
 		A744C31F16CFE5E700DD721F /* ListeArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */; };
->>>>>>> [ iCommerce ] - Ajout Classes
 		A780C13D16CFA02200652C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13C16CFA02200652C08 /* UIKit.framework */; };
 		A780C13F16CFA02200652C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13E16CFA02200652C08 /* Foundation.framework */; };
 		A780C14116CFA02200652C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C14016CFA02200652C08 /* CoreGraphics.framework */; };
@@ -29,17 +38,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleXMLParser.h; sourceTree = "<group>"; };
 		34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleXMLParser.m; sourceTree = "<group>"; };
 		34527FBE16CFDDFB003C0A9D /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		34527FBF16CFDDFB003C0A9D /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
-=======
+		346C285816CFF23500D1BE1D /* ArticleItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleItemTableViewCell.h; sourceTree = "<group>"; };
+		346C285916CFF23500D1BE1D /* ArticleItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleItemTableViewCell.m; sourceTree = "<group>"; };
+		346C285B16CFF25900D1BE1D /* ArticleItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleItemTableViewCell.xib; sourceTree = "<group>"; };
+		346C285D16CFF80D00D1BE1D /* avion@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avion@2x.png"; sourceTree = "<group>"; };
+		346C285E16CFF80D00D1BE1D /* bateau@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bateau@2x.png"; sourceTree = "<group>"; };
+		346C285F16CFF80D00D1BE1D /* bijoux@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bijoux@2x.png"; sourceTree = "<group>"; };
+		346C286016CFF80D00D1BE1D /* helico@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "helico@2x.png"; sourceTree = "<group>"; };
+		346C286116CFF80D00D1BE1D /* maison@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "maison@2x.png"; sourceTree = "<group>"; };
+		346C286216CFF80D00D1BE1D /* mobilier@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobilier@2x.png"; sourceTree = "<group>"; };
+		346C286316CFF80D00D1BE1D /* montre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "montre@2x.png"; sourceTree = "<group>"; };
+		346C286416CFF80D00D1BE1D /* moto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moto@2x.png"; sourceTree = "<group>"; };
+		346C286516CFF80D00D1BE1D /* voiture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiture@2x.png"; sourceTree = "<group>"; };
+		346C286616CFF80D00D1BE1D /* voyage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyage@2x.png"; sourceTree = "<group>"; };
 		A744C31716CFE59800DD721F /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
 		A744C31816CFE59800DD721F /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		A744C31D16CFE5E700DD721F /* ListeArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesViewController.h; sourceTree = "<group>"; };
 		A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesViewController.m; sourceTree = "<group>"; };
->>>>>>> [ iCommerce ] - Ajout Classes
 		A780C13916CFA02200652C08 /* iCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A780C13C16CFA02200652C08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A780C13E16CFA02200652C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +139,9 @@
 				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
 				34527FBE16CFDDFB003C0A9D /* Article.h */,
 				34527FBF16CFDDFB003C0A9D /* Article.m */,
+				346C285816CFF23500D1BE1D /* ArticleItemTableViewCell.h */,
+				346C285916CFF23500D1BE1D /* ArticleItemTableViewCell.m */,
+				346C285B16CFF25900D1BE1D /* ArticleItemTableViewCell.xib */,
 			);
 			path = iCommerce;
 			sourceTree = "<group>";
@@ -127,6 +149,16 @@
 		A780C14316CFA02200652C08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				346C285D16CFF80D00D1BE1D /* avion@2x.png */,
+				346C285E16CFF80D00D1BE1D /* bateau@2x.png */,
+				346C285F16CFF80D00D1BE1D /* bijoux@2x.png */,
+				346C286016CFF80D00D1BE1D /* helico@2x.png */,
+				346C286116CFF80D00D1BE1D /* maison@2x.png */,
+				346C286216CFF80D00D1BE1D /* mobilier@2x.png */,
+				346C286316CFF80D00D1BE1D /* montre@2x.png */,
+				346C286416CFF80D00D1BE1D /* moto@2x.png */,
+				346C286516CFF80D00D1BE1D /* voiture@2x.png */,
+				346C286616CFF80D00D1BE1D /* voyage@2x.png */,
 				A780C14416CFA02200652C08 /* iCommerce-Info.plist */,
 				A780C14516CFA02200652C08 /* InfoPlist.strings */,
 				A780C14816CFA02200652C08 /* main.m */,
@@ -194,6 +226,17 @@
 				A780C15116CFA02200652C08 /* Default@2x.png in Resources */,
 				A780C15316CFA02200652C08 /* Default-568h@2x.png in Resources */,
 				A780C15616CFA02200652C08 /* MainStoryboard.storyboard in Resources */,
+				346C285C16CFF25900D1BE1D /* ArticleItemTableViewCell.xib in Resources */,
+				346C286716CFF80D00D1BE1D /* avion@2x.png in Resources */,
+				346C286816CFF80D00D1BE1D /* bateau@2x.png in Resources */,
+				346C286916CFF80D00D1BE1D /* bijoux@2x.png in Resources */,
+				346C286A16CFF80D00D1BE1D /* helico@2x.png in Resources */,
+				346C286B16CFF80D00D1BE1D /* maison@2x.png in Resources */,
+				346C286C16CFF80D00D1BE1D /* mobilier@2x.png in Resources */,
+				346C286D16CFF80D00D1BE1D /* montre@2x.png in Resources */,
+				346C286E16CFF80D00D1BE1D /* moto@2x.png in Resources */,
+				346C286F16CFF80D00D1BE1D /* voiture@2x.png in Resources */,
+				346C287016CFF80D00D1BE1D /* voyage@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,13 +251,11 @@
 				A780C14D16CFA02200652C08 /* AppDelegate.m in Sources */,
 				A780C16E16CFA36800652C08 /* AuthentificationViewController.m in Sources */,
 				A780C17116CFA3D700652C08 /* EspacePersoViewController.m in Sources */,
-<<<<<<< HEAD
 				34527FBD16CFDD97003C0A9D /* ArticleXMLParser.m in Sources */,
 				34527FC016CFDDFB003C0A9D /* Article.m in Sources */,
-=======
 				A744C31916CFE59800DD721F /* CategoriesViewController.m in Sources */,
 				A744C31F16CFE5E700DD721F /* ListeArticlesViewController.m in Sources */,
->>>>>>> [ iCommerce ] - Ajout Classes
+				346C285A16CFF23500D1BE1D /* ArticleItemTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

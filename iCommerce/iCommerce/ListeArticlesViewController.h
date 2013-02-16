@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ListeArticlesViewController : UITableViewController
+@property (retain, nonatomic) IBOutlet UITableView *ArticleTableView;
 
 @end

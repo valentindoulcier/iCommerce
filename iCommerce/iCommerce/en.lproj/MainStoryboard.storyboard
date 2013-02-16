@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3006" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -17,6 +17,7 @@
                     <connections>
                         <segue destination="ue9-iY-keo" kind="relationship" relationship="viewControllers" id="3Ux-n5-f2c"/>
                         <segue destination="Avr-7L-5Sj" kind="relationship" relationship="viewControllers" id="yTQ-Ua-KA9"/>
+                        <segue destination="q8z-wv-OHZ" kind="relationship" relationship="viewControllers" id="UCA-eX-VhI"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
@@ -32,23 +33,56 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhr-3s-eHI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="0fw-xJ-Juf"/>
+                                    <constraint firstAttribute="height" constant="80" id="U7C-zF-iEj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" title="Voitures" backgroundImage="voiture@2x.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iBM-Pe-kYP" kind="modal" id="znB-8J-xmI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfZ-q5-6TT">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="T3V-zo-fFs"/>
+                                    <constraint firstAttribute="height" constant="79" id="wgQ-th-pgE"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Catégories">
+                                <state key="normal" title="Motos" image="moto@2x.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="iBM-Pe-kYP" kind="modal" id="znB-8J-xmI"/>
-                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxB-Ux-Qmc">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="cew-gE-qq9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Voitures" image="helico@2x.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vhr-3s-eHI" firstAttribute="centerX" secondItem="GfO-Bz-2ZU" secondAttribute="centerX" type="default" id="kaz-4T-MV8"/>
-                            <constraint firstItem="vhr-3s-eHI" firstAttribute="centerY" secondItem="GfO-Bz-2ZU" secondAttribute="centerY" type="default" id="ukV-Mm-Ipr"/>
+                            <constraint firstItem="qfZ-q5-6TT" firstAttribute="top" secondItem="GfO-Bz-2ZU" secondAttribute="top" constant="20" symbolic="YES" type="default" id="FtO-Sj-DJh"/>
+                            <constraint firstItem="qfZ-q5-6TT" firstAttribute="centerX" secondItem="GfO-Bz-2ZU" secondAttribute="centerX" type="default" id="Fyv-wR-TLh"/>
+                            <constraint firstItem="vhr-3s-eHI" firstAttribute="top" secondItem="GfO-Bz-2ZU" secondAttribute="top" constant="20" symbolic="YES" type="default" id="NO7-3R-nrk"/>
+                            <constraint firstItem="vhr-3s-eHI" firstAttribute="leading" secondItem="GfO-Bz-2ZU" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="YBm-Nv-g4S"/>
+                            <constraint firstItem="JxB-Ux-Qmc" firstAttribute="top" secondItem="GfO-Bz-2ZU" secondAttribute="top" constant="20" symbolic="YES" type="default" id="ei2-kV-e4H"/>
+                            <constraint firstAttribute="trailing" secondItem="JxB-Ux-Qmc" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="k7H-yF-eVI"/>
+                            <constraint firstItem="JxB-Ux-Qmc" firstAttribute="bottom" secondItem="qfZ-q5-6TT" secondAttribute="bottom" type="default" id="sok-QG-C4C"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Listes Catégories" id="gBw-vk-T8r"/>
@@ -62,7 +96,7 @@
             <objects>
                 <tableViewController id="nGx-2S-D2f" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4oW-cQ-wXn">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -83,10 +117,11 @@
             </objects>
             <point key="canvasLocation" x="-3819" y="-3821"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="lYI-bb-GJr">
             <objects>
                 <navigationController definesPresentationContext="YES" id="q8z-wv-OHZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="FgX-Hj-yZi"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cEm-U9-2vm">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -134,6 +169,9 @@
                             <outlet property="delegate" destination="iBM-Pe-kYP" id="Hmy-IN-Gz1"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="ArticleTableView" destination="t6e-Ao-YdZ" id="Hje-sW-ibp"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wo-Yt-Ib5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -188,6 +226,11 @@
             <point key="canvasLocation" x="-3825" y="-2390"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="helico@2x.png" width="101" height="101"/>
+        <image name="moto@2x.png" width="101" height="101"/>
+        <image name="voiture@2x.png" width="101" height="101"/>
+    </resources>
     <classes>
         <class className="AuthentificationViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AuthentificationViewController.h"/>
@@ -200,6 +243,9 @@
         </class>
         <class className="ListeArticlesViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
+            </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
