@@ -151,15 +151,15 @@
                         <constraints>
                             <constraint firstItem="MEC-B1-1X5" firstAttribute="centerX" secondItem="ahx-Qq-mU7" secondAttribute="centerX" type="default" id="IRp-Ar-vub"/>
                             <constraint firstItem="mrQ-Ll-6WM" firstAttribute="top" secondItem="vEQ-I4-Hfp" secondAttribute="top" constant="176" id="IrN-2G-z7v"/>
+                            <constraint firstAttribute="bottom" secondItem="Zmj-d5-SDf" secondAttribute="bottom" constant="165" id="LIN-D4-QSK"/>
                             <constraint firstItem="MEC-B1-1X5" firstAttribute="top" secondItem="vEQ-I4-Hfp" secondAttribute="top" constant="141" id="MgR-Pc-vGd"/>
-                            <constraint firstItem="MEC-B1-1X5" firstAttribute="centerX" secondItem="vEQ-I4-Hfp" secondAttribute="centerX" type="default" id="XLW-LP-6iA"/>
+                            <constraint firstItem="Zmj-d5-SDf" firstAttribute="centerX" secondItem="vEQ-I4-Hfp" secondAttribute="centerX" type="default" id="X3R-ZU-wRn"/>
                             <constraint firstItem="R9v-Oz-4Fn" firstAttribute="top" secondItem="vEQ-I4-Hfp" secondAttribute="top" constant="42" id="YyC-Oc-6GP"/>
                             <constraint firstItem="ahx-Qq-mU7" firstAttribute="centerX" secondItem="R9v-Oz-4Fn" secondAttribute="centerX" type="default" id="g1Z-Si-Zsl"/>
                             <constraint firstItem="Zmj-d5-SDf" firstAttribute="centerX" secondItem="mrQ-Ll-6WM" secondAttribute="centerX" type="default" id="j1l-18-NFd"/>
                             <constraint firstItem="ahx-Qq-mU7" firstAttribute="top" secondItem="vEQ-I4-Hfp" secondAttribute="top" constant="77" id="nq1-Ck-cDe"/>
                             <constraint firstItem="MEC-B1-1X5" firstAttribute="centerX" secondItem="mrQ-Ll-6WM" secondAttribute="centerX" type="default" id="oKX-nC-ZNy"/>
                             <constraint firstItem="mrQ-Ll-6WM" firstAttribute="leading" secondItem="ahx-Qq-mU7" secondAttribute="leading" type="default" id="vXT-Yr-kNV"/>
-                            <constraint firstAttribute="bottom" secondItem="Zmj-d5-SDf" secondAttribute="bottom" constant="167" id="vXf-pi-Ie5"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CG7-Nd-D7M"/>
@@ -172,16 +172,16 @@
         <scene sceneID="ndX-iA-adl">
             <objects>
                 <tableViewController id="aOM-jD-ikQ" customClass="EspacePersoViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Lre-tR-kGf">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Lre-tR-kGf">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="30C-BA-orP">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="46" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="10" y="1" width="300" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
