@@ -125,6 +125,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34A4F4F916F489D500AE5AD5 /* Liste Articles */ = {
+			isa = PBXGroup;
+			children = (
+				34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */,
+				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
+				34527FBE16CFDDFB003C0A9D /* Article.h */,
+				34527FBF16CFDDFB003C0A9D /* Article.m */,
+				346C285816CFF23500D1BE1D /* ArticleItemTableViewCell.h */,
+				346C285916CFF23500D1BE1D /* ArticleItemTableViewCell.m */,
+				346C285B16CFF25900D1BE1D /* ArticleItemTableViewCell.xib */,
+				A744C31716CFE59800DD721F /* CategoriesViewController.h */,
+				A744C31816CFE59800DD721F /* CategoriesViewController.m */,
+				A744C31D16CFE5E700DD721F /* ListeArticlesViewController.h */,
+				A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */,
+				3424EAE816F45DDD001C0C7A /* DetailViewController.h */,
+				3424EAE916F45DDD001C0C7A /* DetailViewController.m */,
+				3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */,
+			);
+			name = "Liste Articles";
+			sourceTree = "<group>";
+		};
 		A780C13016CFA02200652C08 = {
 			isa = PBXGroup;
 			children = (
@@ -158,22 +179,9 @@
 				A780C14B16CFA02200652C08 /* AppDelegate.h */,
 				A780C14C16CFA02200652C08 /* AppDelegate.m */,
 				A780C15416CFA02200652C08 /* MainStoryboard.storyboard */,
-				A744C31716CFE59800DD721F /* CategoriesViewController.h */,
-				A744C31816CFE59800DD721F /* CategoriesViewController.m */,
-				A744C31D16CFE5E700DD721F /* ListeArticlesViewController.h */,
-				A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */,
-				3424EAE816F45DDD001C0C7A /* DetailViewController.h */,
-				3424EAE916F45DDD001C0C7A /* DetailViewController.m */,
-				3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */,
+				34A4F4F916F489D500AE5AD5 /* Liste Articles */,
 				A7812D2616F485A40027936C /* Espace Perso */,
 				A780C14316CFA02200652C08 /* Supporting Files */,
-				34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */,
-				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
-				34527FBE16CFDDFB003C0A9D /* Article.h */,
-				34527FBF16CFDDFB003C0A9D /* Article.m */,
-				346C285816CFF23500D1BE1D /* ArticleItemTableViewCell.h */,
-				346C285916CFF23500D1BE1D /* ArticleItemTableViewCell.m */,
-				346C285B16CFF25900D1BE1D /* ArticleItemTableViewCell.xib */,
 			);
 			path = iCommerce;
 			sourceTree = "<group>";
