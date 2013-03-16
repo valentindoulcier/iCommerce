@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3424EAEB16F45DDD001C0C7A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3424EAE916F45DDD001C0C7A /* DetailViewController.m */; };
+		3424EAEC16F45DDD001C0C7A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */; };
+		3424EB0516F46DE1001C0C7A /* voiture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3424EAFF16F46DE1001C0C7A /* voiture@2x.png */; };
+		3435466716F47CB10016D50F /* htc-desire-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435465D16F47CB10016D50F /* htc-desire-s.png */; };
+		3435466816F47CB10016D50F /* htc-desire-s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435465E16F47CB10016D50F /* htc-desire-s@2x.png */; };
+		3435466916F47CB10016D50F /* imprimante.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435465F16F47CB10016D50F /* imprimante.png */; };
+		3435466A16F47CB10016D50F /* imprimante@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466016F47CB10016D50F /* imprimante@2x.png */; };
+		3435466B16F47CB10016D50F /* iphone-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466116F47CB10016D50F /* iphone-5.png */; };
+		3435466C16F47CB10016D50F /* iphone-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466216F47CB10016D50F /* iphone-5@2x.png */; };
+		3435466D16F47CB10016D50F /* routeur-wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466316F47CB10016D50F /* routeur-wifi.png */; };
+		3435466E16F47CB10016D50F /* routeur-wifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466416F47CB10016D50F /* routeur-wifi@2x.png */; };
+		3435466F16F47CB10016D50F /* tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466516F47CB10016D50F /* tv.png */; };
+		3435467016F47CB10016D50F /* tv@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435466616F47CB10016D50F /* tv@2x.png */; };
 		34527FBD16CFDD97003C0A9D /* ArticleXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */; };
 		34527FC016CFDDFB003C0A9D /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 34527FBF16CFDDFB003C0A9D /* Article.m */; };
 		346C285A16CFF23500D1BE1D /* ArticleItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C285916CFF23500D1BE1D /* ArticleItemTableViewCell.m */; };
@@ -38,6 +51,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3424EAE816F45DDD001C0C7A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3424EAE916F45DDD001C0C7A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		3424EAFF16F46DE1001C0C7A /* voiture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiture@2x.png"; sourceTree = "<group>"; };
+		3435465D16F47CB10016D50F /* htc-desire-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "htc-desire-s.png"; sourceTree = "<group>"; };
+		3435465E16F47CB10016D50F /* htc-desire-s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "htc-desire-s@2x.png"; sourceTree = "<group>"; };
+		3435465F16F47CB10016D50F /* imprimante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imprimante.png; sourceTree = "<group>"; };
+		3435466016F47CB10016D50F /* imprimante@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imprimante@2x.png"; sourceTree = "<group>"; };
+		3435466116F47CB10016D50F /* iphone-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-5.png"; sourceTree = "<group>"; };
+		3435466216F47CB10016D50F /* iphone-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-5@2x.png"; sourceTree = "<group>"; };
+		3435466316F47CB10016D50F /* routeur-wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "routeur-wifi.png"; sourceTree = "<group>"; };
+		3435466416F47CB10016D50F /* routeur-wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "routeur-wifi@2x.png"; sourceTree = "<group>"; };
+		3435466516F47CB10016D50F /* tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv.png; sourceTree = "<group>"; };
+		3435466616F47CB10016D50F /* tv@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tv@2x.png"; sourceTree = "<group>"; };
 		34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleXMLParser.h; sourceTree = "<group>"; };
 		34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleXMLParser.m; sourceTree = "<group>"; };
 		34527FBE16CFDDFB003C0A9D /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
@@ -134,6 +161,9 @@
 				A780C16D16CFA36800652C08 /* AuthentificationViewController.m */,
 				A780C16F16CFA3D700652C08 /* EspacePersoViewController.h */,
 				A780C17016CFA3D700652C08 /* EspacePersoViewController.m */,
+				3424EAE816F45DDD001C0C7A /* DetailViewController.h */,
+				3424EAE916F45DDD001C0C7A /* DetailViewController.m */,
+				3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */,
 				A780C14316CFA02200652C08 /* Supporting Files */,
 				34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */,
 				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
@@ -149,6 +179,17 @@
 		A780C14316CFA02200652C08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3435465D16F47CB10016D50F /* htc-desire-s.png */,
+				3435465E16F47CB10016D50F /* htc-desire-s@2x.png */,
+				3435465F16F47CB10016D50F /* imprimante.png */,
+				3435466016F47CB10016D50F /* imprimante@2x.png */,
+				3435466116F47CB10016D50F /* iphone-5.png */,
+				3435466216F47CB10016D50F /* iphone-5@2x.png */,
+				3435466316F47CB10016D50F /* routeur-wifi.png */,
+				3435466416F47CB10016D50F /* routeur-wifi@2x.png */,
+				3435466516F47CB10016D50F /* tv.png */,
+				3435466616F47CB10016D50F /* tv@2x.png */,
+				3424EAFF16F46DE1001C0C7A /* voiture@2x.png */,
 				346C285D16CFF80D00D1BE1D /* avion@2x.png */,
 				346C285E16CFF80D00D1BE1D /* bateau@2x.png */,
 				346C285F16CFF80D00D1BE1D /* bijoux@2x.png */,
@@ -237,6 +278,18 @@
 				346C286E16CFF80D00D1BE1D /* moto@2x.png in Resources */,
 				346C286F16CFF80D00D1BE1D /* voiture@2x.png in Resources */,
 				346C287016CFF80D00D1BE1D /* voyage@2x.png in Resources */,
+				3424EAEC16F45DDD001C0C7A /* DetailViewController.xib in Resources */,
+				3424EB0516F46DE1001C0C7A /* voiture@2x.png in Resources */,
+				3435466716F47CB10016D50F /* htc-desire-s.png in Resources */,
+				3435466816F47CB10016D50F /* htc-desire-s@2x.png in Resources */,
+				3435466916F47CB10016D50F /* imprimante.png in Resources */,
+				3435466A16F47CB10016D50F /* imprimante@2x.png in Resources */,
+				3435466B16F47CB10016D50F /* iphone-5.png in Resources */,
+				3435466C16F47CB10016D50F /* iphone-5@2x.png in Resources */,
+				3435466D16F47CB10016D50F /* routeur-wifi.png in Resources */,
+				3435466E16F47CB10016D50F /* routeur-wifi@2x.png in Resources */,
+				3435466F16F47CB10016D50F /* tv.png in Resources */,
+				3435467016F47CB10016D50F /* tv@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +309,7 @@
 				A744C31916CFE59800DD721F /* CategoriesViewController.m in Sources */,
 				A744C31F16CFE5E700DD721F /* ListeArticlesViewController.m in Sources */,
 				346C285A16CFF23500D1BE1D /* ArticleItemTableViewCell.m in Sources */,
+				3424EAEB16F45DDD001C0C7A /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
