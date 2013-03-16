@@ -104,7 +104,7 @@
             </objects>
             <point key="canvasLocation" x="-3293" y="-3166"/>
         </scene>
-        <!--Authentification View Controller-->
+        <!--Authentification View Controller - S'authentifier-->
         <scene sceneID="BF5-I0-y85">
             <objects>
                 <viewController id="ue9-iY-keo" customClass="AuthentificationViewController" sceneMemberID="viewController">
@@ -162,13 +162,13 @@
                             <constraint firstItem="mrQ-Ll-6WM" firstAttribute="leading" secondItem="ahx-Qq-mU7" secondAttribute="leading" type="default" id="vXT-Yr-kNV"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="CG7-Nd-D7M"/>
+                    <navigationItem key="navigationItem" title="S'authentifier" id="CG7-Nd-D7M"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8t-cD-VdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3819" y="-2390"/>
         </scene>
-        <!--Espace Perso View Controller-->
+        <!--Espace Perso View Controller - Mon Espace Perso-->
         <scene sceneID="ndX-iA-adl">
             <objects>
                 <tableViewController id="aOM-jD-ikQ" customClass="EspacePersoViewController" sceneMemberID="viewController">
@@ -192,7 +192,7 @@
                             <outlet property="delegate" destination="aOM-jD-ikQ" id="bHX-HO-iY5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="hQr-v2-I4h"/>
+                    <navigationItem key="navigationItem" title="Mon Espace Perso" id="hQr-v2-I4h"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wp6-0V-RIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

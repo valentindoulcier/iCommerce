@@ -10,6 +10,8 @@
 
 @implementation EspacePersoCell
 
+@synthesize image, label;
+
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -27,8 +29,8 @@
 }
 
 - (void)dealloc {
-    [_image release];
-    [_label release];
+    [ image release];
+    [ label release];
     [super dealloc];
 }
 @end

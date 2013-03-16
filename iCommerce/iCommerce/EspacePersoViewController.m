@@ -7,12 +7,15 @@
 //
 
 #import "EspacePersoViewController.h"
+#import "EspacePersoCell.h"
 
 @interface EspacePersoViewController ()
 
 @end
 
 @implementation EspacePersoViewController
+
+@synthesize entree;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,6 +29,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"toto", @"label", nil];
+    NSDictionary *cell2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"tata", @"label", nil];
+    NSDictionary *cell3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
+    NSDictionary *cell4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
+    NSDictionary *cell5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
+    NSDictionary *cell6 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
+    NSDictionary *cell7 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
+    
+    entree = [[NSArray alloc] initWithObjects:cell1, cell2, cell3, cell4, cell5, cell6, cell7, nil];
+    
+    [cell1 release];
+    [cell2 release];
+    [cell3 release];
+    [cell4 release];
+    [cell5 release];
+    [cell6 release];
+    [cell7 release];
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -42,6 +64,11 @@
 
 #pragma mark - Table view data source
 
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 65;
+}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
@@ -51,14 +78,31 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 7;
+    return [entree count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"EspacePersoCell";
+    EspacePersoCell *cell = (EspacePersoCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+ 
+    if (cell == nil) {
+        NSArray *xib = [[NSBundle mainBundle] loadNibNamed:@"EspacePersoCell" owner:self options:nil];
+        
+        for (id oneObject in xib) {
+            if ([oneObject isKindOfClass:[EspacePersoCell class]]) {
+                cell = (EspacePersoCell *) oneObject;
+            }
+        }
+    }
     
+    // Configure the cell...
+    
+    NSDictionary *current = [entree objectAtIndex:indexPath.row];
+    
+    cell.label.text = [current objectForKey:@"label"];
+    cell.image.image = [UIImage imageNamed:@"bateau"];
+
     // Configure the cell...
     
     return cell;
