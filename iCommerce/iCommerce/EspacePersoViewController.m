@@ -8,6 +8,13 @@
 
 #import "EspacePersoViewController.h"
 #import "EspacePersoCell.h"
+#import "MonCompteViewController.h"
+#import "MesCommandesViewController.h"
+#import "MesAdressesViewController.h"
+#import "MesRetoursSAVViewController.h"
+#import "MesAvoirsViewController.h"
+#import "MonPanierViewController.h"
+#import "MesAlertesViewController.h"
 
 @interface EspacePersoViewController ()
 
@@ -30,13 +37,13 @@
 {
     [super viewDidLoad];
     
-    NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"toto", @"label", nil];
-    NSDictionary *cell2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"tata", @"label", nil];
-    NSDictionary *cell3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
-    NSDictionary *cell4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
-    NSDictionary *cell5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
-    NSDictionary *cell6 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
-    NSDictionary *cell7 = [[NSDictionary alloc] initWithObjectsAndKeys:@"TOTO", @"label", nil];
+    NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mon Compte Client", @"label", @"bateau", @"image", nil];
+    NSDictionary *cell2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Commandes", @"label", @"avion", @"image", nil];
+    NSDictionary *cell3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Adresses", @"label", @"voiture", @"image", nil];
+    NSDictionary *cell4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Retours SAV", @"label", @"bateau", @"image", nil];
+    NSDictionary *cell5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Avoirs", @"label", @"bateau", @"image", nil];
+    NSDictionary *cell6 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mon Panier", @"label", @"bateau", @"image", nil];
+    NSDictionary *cell7 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Alertes", @"label", @"bateau", @"image", nil];
     
     entree = [[NSArray alloc] initWithObjects:cell1, cell2, cell3, cell4, cell5, cell6, cell7, nil];
     
@@ -101,7 +108,7 @@
     NSDictionary *current = [entree objectAtIndex:indexPath.row];
     
     cell.label.text = [current objectForKey:@"label"];
-    cell.image.image = [UIImage imageNamed:@"bateau"];
+    cell.image.image = [UIImage imageNamed:[current objectForKey:@"image"]];
 
     // Configure the cell...
     
@@ -151,14 +158,51 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+    
+    NSDictionary *current = [entree objectAtIndex:indexPath.row];
+    
+    if([[current objectForKey:@"label"] isEqualToString:@"Mon Compte Client"]) {        
+        MonCompteViewController *monCompteViewController = [[MonCompteViewController alloc] initWithNibName:@"MonCompteViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:monCompteViewController animated:YES];
+        [monCompteViewController release];
+    }
+    if([[current objectForKey:@"label"] isEqualToString:@"Mes Commandes"]) {
+        MesCommandesViewController *mesCommandesViewController = [[MesCommandesViewController alloc] initWithNibName:@"MesCommandesViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:mesCommandesViewController animated:YES];
+        [mesCommandesViewController release];
+    }
+    if([[current objectForKey:@"label"] isEqualToString:@"Mes Adresses"]) {
+        MesAdressesViewController *mesAdressesViewController = [[MesAdressesViewController alloc] initWithNibName:@"MesAdressesViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:mesAdressesViewController animated:YES];
+        [mesAdressesViewController release];
+    }
+    if([[current objectForKey:@"label"] isEqualToString:@"Mes Retours SAV"]) {
+        MesRetoursSAVViewController *mesRetoursSAVViewController = [[MesRetoursSAVViewController alloc] initWithNibName:@"MesRetoursSAVViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:mesRetoursSAVViewController animated:YES];
+        [mesRetoursSAVViewController release];
+    }
+    if([[current objectForKey:@"label"] isEqualToString:@"Mes Avoirs"]) {
+        MesAvoirsViewController *mesAvoirsViewController = [[MesAvoirsViewController alloc] initWithNibName:@"MesAvoirsViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:mesAvoirsViewController animated:YES];
+        [mesAvoirsViewController release];
+    }
+    if([[current objectForKey:@"label"] isEqualToString:@"Mon Panier"]) {
+        MonPanierViewController *monPanierViewController = [[MonPanierViewController alloc] initWithNibName:@"MonPanierViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:monPanierViewController animated:YES];
+        [monPanierViewController release];
+    }
+    if([[current objectForKey:@"label"] isEqualToString:@"Mes Alertes"]) {
+        MesAlertesViewController *mesAlertesViewController = [[MesAlertesViewController alloc] initWithNibName:@"MesAlertesViewController" bundle:nil];
+        
+        [self.navigationController pushViewController:mesAlertesViewController animated:YES];
+        [mesAlertesViewController release];
+    }
 }
 
 @end

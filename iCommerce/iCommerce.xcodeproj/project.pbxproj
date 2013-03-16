@@ -36,6 +36,20 @@
 		346C287016CFF80D00D1BE1D /* voyage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286616CFF80D00D1BE1D /* voyage@2x.png */; };
 		A744C31916CFE59800DD721F /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744C31816CFE59800DD721F /* CategoriesViewController.m */; };
 		A744C31F16CFE5E700DD721F /* ListeArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */; };
+		A755D9BB16F4A3720052A119 /* MonCompteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9B916F4A3720052A119 /* MonCompteViewController.m */; };
+		A755D9BC16F4A3720052A119 /* MonCompteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9BA16F4A3720052A119 /* MonCompteViewController.xib */; };
+		A755D9C016F4A46E0052A119 /* MesCommandesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9BE16F4A46E0052A119 /* MesCommandesViewController.m */; };
+		A755D9C116F4A46E0052A119 /* MesCommandesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9BF16F4A46E0052A119 /* MesCommandesViewController.xib */; };
+		A755D9C516F4A4820052A119 /* MesAdressesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9C316F4A4820052A119 /* MesAdressesViewController.m */; };
+		A755D9C616F4A4820052A119 /* MesAdressesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9C416F4A4820052A119 /* MesAdressesViewController.xib */; };
+		A755D9CA16F4A4930052A119 /* MesRetoursSAVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9C816F4A4930052A119 /* MesRetoursSAVViewController.m */; };
+		A755D9CB16F4A4930052A119 /* MesRetoursSAVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9C916F4A4930052A119 /* MesRetoursSAVViewController.xib */; };
+		A755D9CF16F4A4A30052A119 /* MesAvoirsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9CD16F4A4A30052A119 /* MesAvoirsViewController.m */; };
+		A755D9D016F4A4A30052A119 /* MesAvoirsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9CE16F4A4A30052A119 /* MesAvoirsViewController.xib */; };
+		A755D9D416F4A4B10052A119 /* MonPanierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9D216F4A4B10052A119 /* MonPanierViewController.m */; };
+		A755D9D516F4A4B10052A119 /* MonPanierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9D316F4A4B10052A119 /* MonPanierViewController.xib */; };
+		A755D9D916F4A4C10052A119 /* MesAlertesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9D716F4A4C10052A119 /* MesAlertesViewController.m */; };
+		A755D9DA16F4A4C10052A119 /* MesAlertesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A755D9D816F4A4C10052A119 /* MesAlertesViewController.xib */; };
 		A780C13D16CFA02200652C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13C16CFA02200652C08 /* UIKit.framework */; };
 		A780C13F16CFA02200652C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C13E16CFA02200652C08 /* Foundation.framework */; };
 		A780C14116CFA02200652C08 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A780C14016CFA02200652C08 /* CoreGraphics.framework */; };
@@ -88,6 +102,27 @@
 		A744C31816CFE59800DD721F /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		A744C31D16CFE5E700DD721F /* ListeArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesViewController.h; sourceTree = "<group>"; };
 		A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesViewController.m; sourceTree = "<group>"; };
+		A755D9B816F4A3720052A119 /* MonCompteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonCompteViewController.h; sourceTree = "<group>"; };
+		A755D9B916F4A3720052A119 /* MonCompteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonCompteViewController.m; sourceTree = "<group>"; };
+		A755D9BA16F4A3720052A119 /* MonCompteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonCompteViewController.xib; sourceTree = "<group>"; };
+		A755D9BD16F4A46E0052A119 /* MesCommandesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesCommandesViewController.h; sourceTree = "<group>"; };
+		A755D9BE16F4A46E0052A119 /* MesCommandesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesCommandesViewController.m; sourceTree = "<group>"; };
+		A755D9BF16F4A46E0052A119 /* MesCommandesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MesCommandesViewController.xib; sourceTree = "<group>"; };
+		A755D9C216F4A4820052A119 /* MesAdressesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesAdressesViewController.h; sourceTree = "<group>"; };
+		A755D9C316F4A4820052A119 /* MesAdressesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesAdressesViewController.m; sourceTree = "<group>"; };
+		A755D9C416F4A4820052A119 /* MesAdressesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MesAdressesViewController.xib; sourceTree = "<group>"; };
+		A755D9C716F4A4930052A119 /* MesRetoursSAVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesRetoursSAVViewController.h; sourceTree = "<group>"; };
+		A755D9C816F4A4930052A119 /* MesRetoursSAVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesRetoursSAVViewController.m; sourceTree = "<group>"; };
+		A755D9C916F4A4930052A119 /* MesRetoursSAVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MesRetoursSAVViewController.xib; sourceTree = "<group>"; };
+		A755D9CC16F4A4A30052A119 /* MesAvoirsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesAvoirsViewController.h; sourceTree = "<group>"; };
+		A755D9CD16F4A4A30052A119 /* MesAvoirsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesAvoirsViewController.m; sourceTree = "<group>"; };
+		A755D9CE16F4A4A30052A119 /* MesAvoirsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MesAvoirsViewController.xib; sourceTree = "<group>"; };
+		A755D9D116F4A4B10052A119 /* MonPanierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonPanierViewController.h; sourceTree = "<group>"; };
+		A755D9D216F4A4B10052A119 /* MonPanierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonPanierViewController.m; sourceTree = "<group>"; };
+		A755D9D316F4A4B10052A119 /* MonPanierViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MonPanierViewController.xib; sourceTree = "<group>"; };
+		A755D9D616F4A4C10052A119 /* MesAlertesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MesAlertesViewController.h; sourceTree = "<group>"; };
+		A755D9D716F4A4C10052A119 /* MesAlertesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MesAlertesViewController.m; sourceTree = "<group>"; };
+		A755D9D816F4A4C10052A119 /* MesAlertesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MesAlertesViewController.xib; sourceTree = "<group>"; };
 		A780C13916CFA02200652C08 /* iCommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A780C13C16CFA02200652C08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A780C13E16CFA02200652C08 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -239,6 +274,27 @@
 		A7812D2716F486250027936C /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				A755D9B816F4A3720052A119 /* MonCompteViewController.h */,
+				A755D9B916F4A3720052A119 /* MonCompteViewController.m */,
+				A755D9BA16F4A3720052A119 /* MonCompteViewController.xib */,
+				A755D9BD16F4A46E0052A119 /* MesCommandesViewController.h */,
+				A755D9BE16F4A46E0052A119 /* MesCommandesViewController.m */,
+				A755D9BF16F4A46E0052A119 /* MesCommandesViewController.xib */,
+				A755D9C216F4A4820052A119 /* MesAdressesViewController.h */,
+				A755D9C316F4A4820052A119 /* MesAdressesViewController.m */,
+				A755D9C416F4A4820052A119 /* MesAdressesViewController.xib */,
+				A755D9C716F4A4930052A119 /* MesRetoursSAVViewController.h */,
+				A755D9C816F4A4930052A119 /* MesRetoursSAVViewController.m */,
+				A755D9C916F4A4930052A119 /* MesRetoursSAVViewController.xib */,
+				A755D9CC16F4A4A30052A119 /* MesAvoirsViewController.h */,
+				A755D9CD16F4A4A30052A119 /* MesAvoirsViewController.m */,
+				A755D9CE16F4A4A30052A119 /* MesAvoirsViewController.xib */,
+				A755D9D116F4A4B10052A119 /* MonPanierViewController.h */,
+				A755D9D216F4A4B10052A119 /* MonPanierViewController.m */,
+				A755D9D316F4A4B10052A119 /* MonPanierViewController.xib */,
+				A755D9D616F4A4C10052A119 /* MesAlertesViewController.h */,
+				A755D9D716F4A4C10052A119 /* MesAlertesViewController.m */,
+				A755D9D816F4A4C10052A119 /* MesAlertesViewController.xib */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -323,6 +379,13 @@
 				3435466F16F47CB10016D50F /* tv.png in Resources */,
 				3435467016F47CB10016D50F /* tv@2x.png in Resources */,
 				A7812D2F16F486810027936C /* EspacePersoCell.xib in Resources */,
+				A755D9BC16F4A3720052A119 /* MonCompteViewController.xib in Resources */,
+				A755D9C116F4A46E0052A119 /* MesCommandesViewController.xib in Resources */,
+				A755D9C616F4A4820052A119 /* MesAdressesViewController.xib in Resources */,
+				A755D9CB16F4A4930052A119 /* MesRetoursSAVViewController.xib in Resources */,
+				A755D9D016F4A4A30052A119 /* MesAvoirsViewController.xib in Resources */,
+				A755D9D516F4A4B10052A119 /* MonPanierViewController.xib in Resources */,
+				A755D9DA16F4A4C10052A119 /* MesAlertesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +407,13 @@
 				3424EAEB16F45DDD001C0C7A /* DetailViewController.m in Sources */,
 				A7812D2A16F486450027936C /* EspacePersoViewController.m in Sources */,
 				A7812D2D16F486680027936C /* EspacePersoCell.m in Sources */,
+				A755D9BB16F4A3720052A119 /* MonCompteViewController.m in Sources */,
+				A755D9C016F4A46E0052A119 /* MesCommandesViewController.m in Sources */,
+				A755D9C516F4A4820052A119 /* MesAdressesViewController.m in Sources */,
+				A755D9CA16F4A4930052A119 /* MesRetoursSAVViewController.m in Sources */,
+				A755D9CF16F4A4A30052A119 /* MesAvoirsViewController.m in Sources */,
+				A755D9D416F4A4B10052A119 /* MonPanierViewController.m in Sources */,
+				A755D9D916F4A4C10052A119 /* MesAlertesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
