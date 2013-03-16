@@ -47,7 +47,9 @@
 		A780C15316CFA02200652C08 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A780C15216CFA02200652C08 /* Default-568h@2x.png */; };
 		A780C15616CFA02200652C08 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A780C15416CFA02200652C08 /* MainStoryboard.storyboard */; };
 		A780C16E16CFA36800652C08 /* AuthentificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C16D16CFA36800652C08 /* AuthentificationViewController.m */; };
-		A780C17116CFA3D700652C08 /* EspacePersoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A780C17016CFA3D700652C08 /* EspacePersoViewController.m */; };
+		A7812D2A16F486450027936C /* EspacePersoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7812D2916F486450027936C /* EspacePersoViewController.m */; };
+		A7812D2D16F486680027936C /* EspacePersoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7812D2C16F486680027936C /* EspacePersoCell.m */; };
+		A7812D2F16F486810027936C /* EspacePersoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7812D2E16F486810027936C /* EspacePersoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,8 +104,11 @@
 		A780C15516CFA02200652C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A780C16C16CFA36800652C08 /* AuthentificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthentificationViewController.h; sourceTree = "<group>"; };
 		A780C16D16CFA36800652C08 /* AuthentificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthentificationViewController.m; sourceTree = "<group>"; };
-		A780C16F16CFA3D700652C08 /* EspacePersoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspacePersoViewController.h; sourceTree = "<group>"; };
-		A780C17016CFA3D700652C08 /* EspacePersoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspacePersoViewController.m; sourceTree = "<group>"; };
+		A7812D2816F486450027936C /* EspacePersoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspacePersoViewController.h; sourceTree = "<group>"; };
+		A7812D2916F486450027936C /* EspacePersoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspacePersoViewController.m; sourceTree = "<group>"; };
+		A7812D2B16F486680027936C /* EspacePersoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspacePersoCell.h; sourceTree = "<group>"; };
+		A7812D2C16F486680027936C /* EspacePersoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspacePersoCell.m; sourceTree = "<group>"; };
+		A7812D2E16F486810027936C /* EspacePersoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EspacePersoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,13 +162,10 @@
 				A744C31816CFE59800DD721F /* CategoriesViewController.m */,
 				A744C31D16CFE5E700DD721F /* ListeArticlesViewController.h */,
 				A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */,
-				A780C16C16CFA36800652C08 /* AuthentificationViewController.h */,
-				A780C16D16CFA36800652C08 /* AuthentificationViewController.m */,
-				A780C16F16CFA3D700652C08 /* EspacePersoViewController.h */,
-				A780C17016CFA3D700652C08 /* EspacePersoViewController.m */,
 				3424EAE816F45DDD001C0C7A /* DetailViewController.h */,
 				3424EAE916F45DDD001C0C7A /* DetailViewController.m */,
 				3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */,
+				A7812D2616F485A40027936C /* Espace Perso */,
 				A780C14316CFA02200652C08 /* Supporting Files */,
 				34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */,
 				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
@@ -209,6 +211,28 @@
 				A780C15216CFA02200652C08 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7812D2616F485A40027936C /* Espace Perso */ = {
+			isa = PBXGroup;
+			children = (
+				A780C16C16CFA36800652C08 /* AuthentificationViewController.h */,
+				A780C16D16CFA36800652C08 /* AuthentificationViewController.m */,
+				A7812D2816F486450027936C /* EspacePersoViewController.h */,
+				A7812D2916F486450027936C /* EspacePersoViewController.m */,
+				A7812D2716F486250027936C /* Items */,
+				A7812D2B16F486680027936C /* EspacePersoCell.h */,
+				A7812D2C16F486680027936C /* EspacePersoCell.m */,
+				A7812D2E16F486810027936C /* EspacePersoCell.xib */,
+			);
+			name = "Espace Perso";
+			sourceTree = "<group>";
+		};
+		A7812D2716F486250027936C /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +314,7 @@
 				3435466E16F47CB10016D50F /* routeur-wifi@2x.png in Resources */,
 				3435466F16F47CB10016D50F /* tv.png in Resources */,
 				3435467016F47CB10016D50F /* tv@2x.png in Resources */,
+				A7812D2F16F486810027936C /* EspacePersoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +328,14 @@
 				A780C14916CFA02200652C08 /* main.m in Sources */,
 				A780C14D16CFA02200652C08 /* AppDelegate.m in Sources */,
 				A780C16E16CFA36800652C08 /* AuthentificationViewController.m in Sources */,
-				A780C17116CFA3D700652C08 /* EspacePersoViewController.m in Sources */,
 				34527FBD16CFDD97003C0A9D /* ArticleXMLParser.m in Sources */,
 				34527FC016CFDDFB003C0A9D /* Article.m in Sources */,
 				A744C31916CFE59800DD721F /* CategoriesViewController.m in Sources */,
 				A744C31F16CFE5E700DD721F /* ListeArticlesViewController.m in Sources */,
 				346C285A16CFF23500D1BE1D /* ArticleItemTableViewCell.m in Sources */,
 				3424EAEB16F45DDD001C0C7A /* DetailViewController.m in Sources */,
+				A7812D2A16F486450027936C /* EspacePersoViewController.m in Sources */,
+				A7812D2D16F486680027936C /* EspacePersoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
