@@ -22,7 +22,7 @@
 
 @implementation EspacePersoViewController
 
-@synthesize entree;
+@synthesize entree, user;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {

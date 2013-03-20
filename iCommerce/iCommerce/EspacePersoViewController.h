@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
 @interface EspacePersoViewController : UITableViewController
 
 @property (nonatomic, retain) NSArray *entree;
+@property (nonatomic, retain) User *user;
 
 @end

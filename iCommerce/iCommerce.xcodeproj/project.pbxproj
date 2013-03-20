@@ -34,6 +34,8 @@
 		346C286E16CFF80D00D1BE1D /* moto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286416CFF80D00D1BE1D /* moto@2x.png */; };
 		346C286F16CFF80D00D1BE1D /* voiture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286516CFF80D00D1BE1D /* voiture@2x.png */; };
 		346C287016CFF80D00D1BE1D /* voyage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286616CFF80D00D1BE1D /* voyage@2x.png */; };
+		34D6AA7616F9EBD100BEE213 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D6AA7516F9EBD100BEE213 /* User.m */; };
+		34D6AA7916F9EC4300BEE213 /* UserXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D6AA7816F9EC4300BEE213 /* UserXMLParser.m */; };
 		A744C31916CFE59800DD721F /* CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744C31816CFE59800DD721F /* CategoriesViewController.m */; };
 		A744C31F16CFE5E700DD721F /* ListeArticlesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A744C31E16CFE5E700DD721F /* ListeArticlesViewController.m */; };
 		A755D9BB16F4A3720052A119 /* MonCompteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A755D9B916F4A3720052A119 /* MonCompteViewController.m */; };
@@ -98,6 +100,10 @@
 		346C286416CFF80D00D1BE1D /* moto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moto@2x.png"; sourceTree = "<group>"; };
 		346C286516CFF80D00D1BE1D /* voiture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiture@2x.png"; sourceTree = "<group>"; };
 		346C286616CFF80D00D1BE1D /* voyage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyage@2x.png"; sourceTree = "<group>"; };
+		34D6AA7416F9EBD100BEE213 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		34D6AA7516F9EBD100BEE213 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		34D6AA7716F9EC4300BEE213 /* UserXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserXMLParser.h; sourceTree = "<group>"; };
+		34D6AA7816F9EC4300BEE213 /* UserXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserXMLParser.m; sourceTree = "<group>"; };
 		A744C31716CFE59800DD721F /* CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesViewController.h; sourceTree = "<group>"; };
 		A744C31816CFE59800DD721F /* CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesViewController.m; sourceTree = "<group>"; };
 		A744C31D16CFE5E700DD721F /* ListeArticlesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesViewController.h; sourceTree = "<group>"; };
@@ -259,6 +265,10 @@
 		A7812D2616F485A40027936C /* Espace Perso */ = {
 			isa = PBXGroup;
 			children = (
+				34D6AA7416F9EBD100BEE213 /* User.h */,
+				34D6AA7516F9EBD100BEE213 /* User.m */,
+				34D6AA7716F9EC4300BEE213 /* UserXMLParser.h */,
+				34D6AA7816F9EC4300BEE213 /* UserXMLParser.m */,
 				A780C16C16CFA36800652C08 /* AuthentificationViewController.h */,
 				A780C16D16CFA36800652C08 /* AuthentificationViewController.m */,
 				A7812D2816F486450027936C /* EspacePersoViewController.h */,
@@ -414,6 +424,8 @@
 				A755D9CF16F4A4A30052A119 /* MesAvoirsViewController.m in Sources */,
 				A755D9D416F4A4B10052A119 /* MonPanierViewController.m in Sources */,
 				A755D9D916F4A4C10052A119 /* MesAlertesViewController.m in Sources */,
+				34D6AA7616F9EBD100BEE213 /* User.m in Sources */,
+				34D6AA7916F9EC4300BEE213 /* UserXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
