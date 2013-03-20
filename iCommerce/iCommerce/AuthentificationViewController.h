@@ -10,6 +10,7 @@
 
 @interface AuthentificationViewController : UIViewController
 - (IBAction)authentification:(id)sender;
+
 @property (retain, nonatomic) IBOutlet UITextField *login;
 @property (retain, nonatomic) IBOutlet UITextField *passwd;
 

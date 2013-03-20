@@ -164,6 +164,8 @@
     if([[current objectForKey:@"label"] isEqualToString:@"Mon Compte Client"]) {        
         MonCompteViewController *monCompteViewController = [[MonCompteViewController alloc] initWithNibName:@"MonCompteViewController" bundle:nil];
         
+        monCompteViewController.user = user;
+        
         [self.navigationController pushViewController:monCompteViewController animated:YES];
         [monCompteViewController release];
     }

@@ -144,7 +144,7 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="moi" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mrQ-Ll-6WM">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -175,7 +175,6 @@
         <!--Espace Perso View Controller - Mon Espace Perso-->
         <scene sceneID="ndX-iA-adl">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wp6-0V-RIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="aOM-jD-ikQ" customClass="EspacePersoViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Lre-tR-kGf">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
@@ -202,6 +201,7 @@
                         <outlet property="tableView" destination="Lre-tR-kGf" id="9QN-pm-Xma"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wp6-0V-RIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3293" y="-2390"/>
         </scene>
@@ -258,9 +258,6 @@
         </class>
         <class className="EspacePersoViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EspacePersoViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
         </class>
         <class className="ListeArticlesViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesViewController.h"/>

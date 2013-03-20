@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
 @interface MonCompteViewController : UIViewController
+
+@property (nonatomic, retain) User *user;
+@property (retain, nonatomic) IBOutlet UILabel *nameUser;
 
 @end

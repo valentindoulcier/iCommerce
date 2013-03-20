@@ -14,6 +14,8 @@
 
 @implementation MonCompteViewController
 
+@synthesize user, nameUser;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +29,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    nameUser.text = user.nom;
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +39,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dealloc {
+    [nameUser release];
+    [super dealloc];
+}
 @end

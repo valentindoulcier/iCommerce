@@ -46,11 +46,11 @@
     
     User *user = [[xmlParser user] objectAtIndex:0];
     
-    if ([user.passwd isEqualToString:passwd.text])
+    if ([user.login isEqualToString:login.text] && [user.passwd isEqualToString:passwd.text])
     {
         EspacePersoViewController *espacePersoViewController = [[EspacePersoViewController alloc] initWithNibName:@"EspacePersoViewController" bundle:nil];
         
-//        espacePersoViewController.user = user;
+        espacePersoViewController.user = user;
         
         [self.navigationController pushViewController:espacePersoViewController animated:YES];
         [espacePersoViewController release];
