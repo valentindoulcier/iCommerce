@@ -21,7 +21,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4964" y="-2882"/>
+            <point key="canvasLocation" x="-5448" y="-3152"/>
         </scene>
         <!--Categories View Controller - Catégories-->
         <scene sceneID="RLP-rH-dM6">
@@ -57,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kkd-Uc-EsL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3819" y="-3166"/>
+            <point key="canvasLocation" x="-4303" y="-3436"/>
         </scene>
         <!--Liste Articles View Controller-->
         <scene sceneID="WZ3-Sj-utG">
@@ -102,7 +102,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wo-Yt-Ib5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3293" y="-3166"/>
+            <point key="canvasLocation" x="-3777" y="-3436"/>
         </scene>
         <!--Authentification View Controller - S'authentifier-->
         <scene sceneID="BF5-I0-y85">
@@ -135,7 +135,7 @@
                                     <constraint firstAttribute="width" constant="223" id="aHX-IO-VAb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEC-B1-1X5">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -144,7 +144,7 @@
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="moi" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mrQ-Ll-6WM">
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8t-cD-VdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3819" y="-2390"/>
+            <point key="canvasLocation" x="-4303" y="-2660"/>
         </scene>
         <!--Espace Perso View Controller - Mon Espace Perso-->
         <scene sceneID="ndX-iA-adl">
@@ -203,7 +203,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wp6-0V-RIq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3293" y="-2390"/>
+            <point key="canvasLocation" x="-3777" y="-2660"/>
         </scene>
         <!--Navigation Controller - Listes Catégories-->
         <scene sceneID="WyK-Tj-unb">
@@ -222,7 +222,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nEd-D8-BsI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4421" y="-3166"/>
+            <point key="canvasLocation" x="-4905" y="-3436"/>
         </scene>
         <!--Navigation Controller - Authentification-->
         <scene sceneID="2Xw-dr-ika">
@@ -241,7 +241,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrR-oD-e65" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4421" y="-2390"/>
+            <point key="canvasLocation" x="-4905" y="-2660"/>
         </scene>
     </scenes>
     <classes>

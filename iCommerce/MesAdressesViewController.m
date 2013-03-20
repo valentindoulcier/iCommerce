@@ -7,12 +7,26 @@
 //
 
 #import "MesAdressesViewController.h"
+#import "MesAdressesCell.h"
 
 @interface MesAdressesViewController ()
 
 @end
 
 @implementation MesAdressesViewController
+
+@synthesize entree, user;
+
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if([user.appartement isEqualToString: @""] || [user.appartement isEqualToString: nil]) {
+        return 85;
+    }
+    else {
+        return 100;
+    }
+}
+
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -26,6 +40,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if([user.appartement isEqualToString: @""] || [user.appartement isEqualToString: nil]) {
+        NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys: [user.numRue stringByAppendingString: [@", " stringByAppendingString: user.nomRue]], @"adresse1", [user.numCodePostal stringByAppendingString: [@" " stringByAppendingString: user.nomVille]], @"adresse2", @"", @"adresse3", nil];
+        
+        entree = [[NSArray alloc] initWithObjects:cell1, nil];
+        [cell1 release];
+        
+    }
+    else {
+        NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys: user.appartement, @"adresse1", [user.numRue stringByAppendingString: [@", " stringByAppendingString: user.nomRue]], @"adresse2", [user.numCodePostal stringByAppendingString: [@" " stringByAppendingString: user.nomVille]], @"adresse3", nil];
+        
+        entree = [[NSArray alloc] initWithObjects:cell1, nil];
+        [cell1 release];
+    }
+    
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -44,25 +73,38 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [entree count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    static NSString *CellIdentifier = @"MesAdressesCell";
+    MesAdressesCell *cell = (MesAdressesCell *) [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        NSArray *xib = [[NSBundle mainBundle] loadNibNamed:@"MesAdressesCell" owner:self options:nil];
+        
+        for (id oneObject in xib) {
+            if ([oneObject isKindOfClass:[MesAdressesCell class]]) {
+                cell = (MesAdressesCell *) oneObject;
+            }
+        }
     }
+    
+    // Configure the cell...
+    
+    NSDictionary *current = [entree objectAtIndex:indexPath.row];
+    
+    cell.adresse1User.text = [current objectForKey:@"adresse1"];
+    cell.adresse2User.text = [current objectForKey:@"adresse2"];
+    cell.adresse3User.text = [current objectForKey:@"adresse3"];
     
     // Configure the cell...
     

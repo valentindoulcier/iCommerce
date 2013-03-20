@@ -164,6 +164,7 @@
     if([[current objectForKey:@"label"] isEqualToString:@"Mon Compte Client"]) {        
         MonCompteViewController *monCompteViewController = [[MonCompteViewController alloc] initWithNibName:@"MonCompteViewController" bundle:nil];
         
+        monCompteViewController.title = @"Mon Compte";
         monCompteViewController.user = user;
         
         [self.navigationController pushViewController:monCompteViewController animated:YES];
@@ -172,11 +173,16 @@
     if([[current objectForKey:@"label"] isEqualToString:@"Mes Commandes"]) {
         MesCommandesViewController *mesCommandesViewController = [[MesCommandesViewController alloc] initWithNibName:@"MesCommandesViewController" bundle:nil];
         
+        mesCommandesViewController.title = @"Mes Commandes";
+        
         [self.navigationController pushViewController:mesCommandesViewController animated:YES];
         [mesCommandesViewController release];
     }
     if([[current objectForKey:@"label"] isEqualToString:@"Mes Adresses"]) {
         MesAdressesViewController *mesAdressesViewController = [[MesAdressesViewController alloc] initWithNibName:@"MesAdressesViewController" bundle:nil];
+        
+        mesAdressesViewController.title = @"Mes Adresses";
+        mesAdressesViewController.user = user;
         
         [self.navigationController pushViewController:mesAdressesViewController animated:YES];
         [mesAdressesViewController release];
@@ -184,11 +190,15 @@
     if([[current objectForKey:@"label"] isEqualToString:@"Mes Retours SAV"]) {
         MesRetoursSAVViewController *mesRetoursSAVViewController = [[MesRetoursSAVViewController alloc] initWithNibName:@"MesRetoursSAVViewController" bundle:nil];
         
+        mesRetoursSAVViewController.title = @"Mes Retours SAV";
+        
         [self.navigationController pushViewController:mesRetoursSAVViewController animated:YES];
         [mesRetoursSAVViewController release];
     }
     if([[current objectForKey:@"label"] isEqualToString:@"Mes Avoirs"]) {
         MesAvoirsViewController *mesAvoirsViewController = [[MesAvoirsViewController alloc] initWithNibName:@"MesAvoirsViewController" bundle:nil];
+        
+        mesAvoirsViewController.title = @"Mes Avoirs";
         
         [self.navigationController pushViewController:mesAvoirsViewController animated:YES];
         [mesAvoirsViewController release];
@@ -196,11 +206,15 @@
     if([[current objectForKey:@"label"] isEqualToString:@"Mon Panier"]) {
         MonPanierViewController *monPanierViewController = [[MonPanierViewController alloc] initWithNibName:@"MonPanierViewController" bundle:nil];
         
+        monPanierViewController.title = @"Mon Panier";
+        
         [self.navigationController pushViewController:monPanierViewController animated:YES];
         [monPanierViewController release];
     }
     if([[current objectForKey:@"label"] isEqualToString:@"Mes Alertes"]) {
         MesAlertesViewController *mesAlertesViewController = [[MesAlertesViewController alloc] initWithNibName:@"MesAlertesViewController" bundle:nil];
+        
+        mesAlertesViewController.title = @"Mes Alertes";
         
         [self.navigationController pushViewController:mesAlertesViewController animated:YES];
         [mesAlertesViewController release];

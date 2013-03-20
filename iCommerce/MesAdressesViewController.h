@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "User.h"
 
 @interface MesAdressesViewController : UITableViewController
+
+@property (nonatomic, retain) NSArray *entree;
+@property (nonatomic, retain) User *user;
 
 @end

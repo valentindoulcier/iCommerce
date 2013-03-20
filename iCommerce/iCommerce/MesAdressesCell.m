@@ -9,6 +9,7 @@
 #import "MesAdressesCell.h"
 
 @implementation MesAdressesCell
+@synthesize adresse1User, adresse2User, adresse3User;
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
@@ -26,4 +27,10 @@
     // Configure the view for the selected state
 }
 
+- (void)dealloc {
+    [adresse1User release];
+    [adresse2User release];
+    [adresse3User release];
+    [super dealloc];
+}
 @end
