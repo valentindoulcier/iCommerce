@@ -10,4 +10,11 @@
 
 @interface CategoriesViewController : UIViewController
 
+- (IBAction)techno:(id)sender;
+- (IBAction)voiture:(id)sender;
+- (IBAction)jets:(id)sender;
+- (IBAction)yatch:(id)sender;
+- (IBAction)maison:(id)sender;
+- (IBAction)all:(id)sender;
+
 @end

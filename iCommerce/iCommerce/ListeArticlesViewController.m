@@ -35,8 +35,13 @@ ArticleXMLParser *xmlParser;
 {
     [super viewDidLoad];
     
-    //xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://icommerce.no-ip.org/listArticle.php"];
-    xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://192.168.0.254:8090/listArticle.php"];
+    if ([_categorie isEqualToString:@"6"]) {
+        //xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://icommerce.no-ip.org/listArticle.php"];
+        xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://192.168.0.254:8090/listArticle.php"];
+    } else {
+        //xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://icommerce.no-ip.org/listArticle.php"];
+        xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:[@"http://192.168.0.254:8090/listArticle.php?idCategorie=" stringByAppendingString:_categorie]];
+    }
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

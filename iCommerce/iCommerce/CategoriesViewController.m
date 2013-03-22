@@ -7,6 +7,7 @@
 //
 
 #import "CategoriesViewController.h"
+#import "ListeArticlesViewController.h"
 
 @interface CategoriesViewController ()
 
@@ -35,4 +36,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)techno:(id)sender
+{
+    ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
+    
+    listeArticlesViewController.categorie = @"1";
+    
+    [self.navigationController pushViewController:listeArticlesViewController animated:YES];
+    [listeArticlesViewController release];
+}
+
+- (IBAction)voiture:(id)sender {
+}
+- (void)dealloc {
+    [super dealloc];
+}
+- (IBAction)jets:(id)sender {
+}
+
+- (IBAction)yatch:(id)sender {
+}
+- (IBAction)maison:(id)sender {
+}
+
+- (IBAction)all:(id)sender {
+}
 @end
