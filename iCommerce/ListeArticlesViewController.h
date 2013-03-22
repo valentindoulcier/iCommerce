@@ -10,4 +10,7 @@
 
 @interface ListeArticlesViewController : UITableViewController
 
+@property (retain, nonatomic) IBOutlet UITableView *ArticleTableView;
+@property (retain, nonatomic) NSString *categories;
+
 @end
