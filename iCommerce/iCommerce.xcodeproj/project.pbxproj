@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34183F0216FD0B1300E58F81 /* logo-iCommerce@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34183F0116FD0B1300E58F81 /* logo-iCommerce@2x.png */; };
 		3424EAEB16F45DDD001C0C7A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3424EAE916F45DDD001C0C7A /* DetailViewController.m */; };
 		3424EAEC16F45DDD001C0C7A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */; };
 		3435466716F47CB10016D50F /* htc-desire-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 3435465D16F47CB10016D50F /* htc-desire-s.png */; };
@@ -108,6 +109,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34183F0116FD0B1300E58F81 /* logo-iCommerce@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-iCommerce@2x.png"; sourceTree = "<group>"; };
 		3424EAE816F45DDD001C0C7A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		3424EAE916F45DDD001C0C7A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3424EAEA16F45DDD001C0C7A /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 		A780C14316CFA02200652C08 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				34183F0116FD0B1300E58F81 /* logo-iCommerce@2x.png */,
 				A71BA3CE16FD0A2E0075E284 /* home_selected.png */,
 				A71BA3CF16FD0A2E0075E284 /* home_selected@2x.png */,
 				A71BA3CA16FD09F90075E284 /* settings_selected.png */,
@@ -522,6 +525,7 @@
 				A71BA3CD16FD09F90075E284 /* settings_selected@2x.png in Resources */,
 				A71BA3D016FD0A2E0075E284 /* home_selected.png in Resources */,
 				A71BA3D116FD0A2E0075E284 /* home_selected@2x.png in Resources */,
+				34183F0216FD0B1300E58F81 /* logo-iCommerce@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
