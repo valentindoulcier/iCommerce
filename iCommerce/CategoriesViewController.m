@@ -1,26 +1,18 @@
 //
-//  ListeArticlesViewController.m
+//  CategoriesViewController.m
 //  iCommerce
 //
-//  Created by Valentin DOULCIER on 16/02/13.
+//  Created by Valentin DOULCIER on 22/03/13.
 //  Copyright (c) 2013 Polytech. All rights reserved.
 //
 
-#import "ListeArticlesYatchViewController.h"
-#import "ArticleXMLParser.h"
-#import "Article.h"
-#import "ArticleItemTableViewCell.h"
-#import "DetailViewController.h"
+#import "CategoriesViewController.h"
 
-@interface ListeArticlesYatchViewController ()
+@interface CategoriesViewController ()
 
 @end
 
-@implementation ListeArticlesYatchViewController
-
-@synthesize ArticleTableView;
-
-ArticleXMLParser *xmlParser;
+@implementation CategoriesViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -34,10 +26,7 @@ ArticleXMLParser *xmlParser;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    //xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://icommerce.no-ip.org/listArticle.php"];
-    xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://192.168.0.254:8090/listArticle.php?idCategorie=4"];
-    
+
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -53,45 +42,29 @@ ArticleXMLParser *xmlParser;
 
 #pragma mark - Table view data source
 
-- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 65;
-}
-
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
+#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return [[xmlParser articles] count];
+    return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"ArticleItem";
-	Article *currentArticle = [[xmlParser articles] objectAtIndex:indexPath.row];
-    ArticleItemTableViewCell *cell = (ArticleItemTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
+    static NSString *CellIdentifier = @"Cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        NSArray *xib = [[NSBundle mainBundle] loadNibNamed:@"ArticleItemTableViewCell" owner:self options:nil];
-        
-        for (id oneObject in xib) {
-            if ([oneObject isKindOfClass:[ArticleItemTableViewCell class]]) {
-                cell = (ArticleItemTableViewCell *) oneObject;
-            }
-        }
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
     
     // Configure the cell...
-    
-    cell.nomArticle.text = [currentArticle nomArticle];
-    cell.description.text = [currentArticle description];
-    cell.prix.text = [[currentArticle prixHT] stringByAppendingString:@" €"];
-    cell.image.image = [UIImage imageNamed:[currentArticle image]];
     
     return cell;
 }
@@ -139,19 +112,14 @@ ArticleXMLParser *xmlParser;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
-    
-    Article *selectedArticle = [[xmlParser articles] objectAtIndex:indexPath.row];
-    
-    detailViewController.detailArticle = selectedArticle;
-    
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
+    // Navigation logic may go here. Create and push another view controller.
+    /*
+     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
+     // ...
+     // Pass the selected object to the new view controller.
+     [self.navigationController pushViewController:detailViewController animated:YES];
+     [detailViewController release];
+     */
 }
 
-- (void)dealloc {
-    [ArticleTableView release];
-    [xmlParser release];
-    [super dealloc];
-}
 @end
