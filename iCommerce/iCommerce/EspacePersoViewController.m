@@ -37,13 +37,13 @@
 {
     [super viewDidLoad];
     
-    NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mon Compte Client", @"label", @"bateau", @"image", nil];
-    NSDictionary *cell2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Commandes", @"label", @"avion", @"image", nil];
-    NSDictionary *cell3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Adresses", @"label", @"voiture", @"image", nil];
-    NSDictionary *cell4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Retours SAV", @"label", @"bateau", @"image", nil];
-    NSDictionary *cell5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Avoirs", @"label", @"bateau", @"image", nil];
-    NSDictionary *cell6 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mon Panier", @"label", @"bateau", @"image", nil];
-    NSDictionary *cell7 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Alertes", @"label", @"bateau", @"image", nil];
+    NSDictionary *cell1 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mon Compte Client", @"label", @"menu_1", @"image", nil];
+    NSDictionary *cell2 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Commandes", @"label", @"menu_2", @"image", nil];
+    NSDictionary *cell3 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Adresses", @"label", @"menu_3", @"image", nil];
+    NSDictionary *cell4 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Retours SAV", @"label", @"menu_4", @"image", nil];
+    NSDictionary *cell5 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Avoirs", @"label", @"menu_5", @"image", nil];
+    NSDictionary *cell6 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mon Panier", @"label", @"menu_6", @"image", nil];
+    NSDictionary *cell7 = [[NSDictionary alloc] initWithObjectsAndKeys:@"Mes Alertes", @"label", @"menu_7", @"image", nil];
     
     entree = [[NSArray alloc] initWithObjects:cell1, cell2, cell3, cell4, cell5, cell6, cell7, nil];
     
