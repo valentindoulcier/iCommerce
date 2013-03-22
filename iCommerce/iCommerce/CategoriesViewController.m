@@ -46,19 +46,55 @@
     [listeArticlesViewController release];
 }
 
-- (IBAction)voiture:(id)sender {
+- (IBAction)voiture:(id)sender
+{
+    ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
+    
+    listeArticlesViewController.categorie = @"2";
+    
+    [self.navigationController pushViewController:listeArticlesViewController animated:YES];
+    [listeArticlesViewController release];
 }
+- (IBAction)jets:(id)sender
+{
+    ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
+
+    listeArticlesViewController.categorie = @"3";
+    
+    [self.navigationController pushViewController:listeArticlesViewController animated:YES];
+    [listeArticlesViewController release];
+}
+
+- (IBAction)yatch:(id)sender
+{
+    ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
+    
+    listeArticlesViewController.categorie = @"4";
+    
+    [self.navigationController pushViewController:listeArticlesViewController animated:YES];
+    [listeArticlesViewController release];
+}
+- (IBAction)maison:(id)sender
+{
+    ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
+    
+    listeArticlesViewController.categorie = @"5";
+    
+    [self.navigationController pushViewController:listeArticlesViewController animated:YES];
+    [listeArticlesViewController release];
+}
+
+- (IBAction)all:(id)sender
+{
+    ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
+    
+    listeArticlesViewController.categorie = @"6";
+    
+    [self.navigationController pushViewController:listeArticlesViewController animated:YES];
+    [listeArticlesViewController release];
+}
+
 - (void)dealloc {
     [super dealloc];
-}
-- (IBAction)jets:(id)sender {
-}
-
-- (IBAction)yatch:(id)sender {
-}
-- (IBAction)maison:(id)sender {
-}
-
-- (IBAction)all:(id)sender {
 }
 @end
