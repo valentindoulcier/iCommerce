@@ -29,11 +29,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    nom.text = detailArticle.nomArticle;
-    marque.text = detailArticle.nomMarque;
-    prix.text = [detailArticle.prixHT stringByAppendingString:@" €"];;
-    description.text = detailArticle.description;
-    image.image = [UIImage imageNamed:detailArticle.image];
+    [nom setText:[detailArticle nomArticle]];
+    [marque setText:[detailArticle nomMarque]];
+    [prix setText:[detailArticle.prixHT stringByAppendingString:@" €"]];
+    [description setText:[detailArticle description]];
+    [image setImage:[UIImage imageNamed:[detailArticle image]]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,7 +47,7 @@
     [prix release];
     [description release];
     [image release];
-    [marque release];
+    [marque release];;
     [super dealloc];
 }
 @end

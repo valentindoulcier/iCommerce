@@ -16,7 +16,7 @@
 @property (retain, nonatomic) IBOutlet UILabel *nom;
 @property (retain, nonatomic) IBOutlet UILabel *marque;
 @property (retain, nonatomic) IBOutlet UILabel *prix;
-@property (retain, nonatomic) IBOutlet UILabel *description;
 @property (retain, nonatomic) IBOutlet UIImageView *image;
+@property (retain, nonatomic) IBOutlet UITextView *description;
 
 @end
