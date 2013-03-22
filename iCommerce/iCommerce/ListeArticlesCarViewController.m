@@ -6,17 +6,17 @@
 //  Copyright (c) 2013 Polytech. All rights reserved.
 //
 
-#import "ListeArticlesViewController.h"
+#import "ListeArticlesCarViewController.h"
 #import "ArticleXMLParser.h"
 #import "Article.h"
 #import "ArticleItemTableViewCell.h"
 #import "DetailViewController.h"
 
-@interface ListeArticlesViewController ()
+@interface ListeArticlesCarViewController ()
 
 @end
 
-@implementation ListeArticlesViewController
+@implementation ListeArticlesCarViewController
 
 @synthesize ArticleTableView;
 
@@ -36,7 +36,7 @@ ArticleXMLParser *xmlParser;
     [super viewDidLoad];
     
     //xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://icommerce.no-ip.org/listArticle.php"];
-    xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://192.168.0.254:8090/listArticle.php"];
+    xmlParser = [[ArticleXMLParser alloc] loadXMLByURL:@"http://192.168.0.254:8090/listArticle.php?idCategorie=2"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

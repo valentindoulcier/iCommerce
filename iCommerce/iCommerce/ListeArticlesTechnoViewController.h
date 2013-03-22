@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListeArticlesViewController : UITableViewController
+@interface ListeArticlesTechnoViewController : UITableViewController
 @property (retain, nonatomic) IBOutlet UITableView *ArticleTableView;
+
 
 @end

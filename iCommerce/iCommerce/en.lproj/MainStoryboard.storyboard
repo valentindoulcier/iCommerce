@@ -40,7 +40,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="all:" destination="Avr-7L-5Sj" eventType="touchUpInside" id="Cxa-0n-YyM"/>
+                                    <segue destination="iBM-Pe-kYP" kind="push" id="viF-hE-4Zd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="U4D-ps-Fn0">
@@ -55,7 +55,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="yatch:" destination="Avr-7L-5Sj" eventType="touchUpInside" id="tUB-y4-Ovj"/>
+                                    <segue destination="1gM-hq-YPq" kind="push" id="YgK-TV-Cfa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lhn-GP-myz">
@@ -67,7 +67,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="maison:" destination="Avr-7L-5Sj" eventType="touchUpInside" id="x15-6D-a9H"/>
+                                    <segue destination="3fJ-44-fyE" kind="push" id="W2o-PM-HCH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="16g-qy-9kR">
@@ -83,7 +83,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="techno:" destination="Avr-7L-5Sj" eventType="touchUpInside" id="VmZ-JV-Lkq"/>
+                                    <segue destination="dsn-Ru-4JY" kind="push" id="Vzi-p7-Jul"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uoc-08-SgC">
@@ -95,7 +95,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="jets:" destination="Avr-7L-5Sj" eventType="touchUpInside" id="IHU-I6-5cM"/>
+                                    <segue destination="Tes-jh-mAv" kind="push" id="tJp-gH-NpO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="zCh-Yj-Yd6">
@@ -107,7 +107,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="voiture:" destination="Avr-7L-5Sj" eventType="touchUpInside" id="yEQ-gl-tJa"/>
+                                    <segue destination="iWJ-kn-X6K" kind="push" id="1QZ-4e-hDt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,12 +144,12 @@
             </objects>
             <point key="canvasLocation" x="-4303" y="-3436"/>
         </scene>
-        <!--Liste Articles View Controller-->
+        <!--Liste Articles View Controller - Toutes les catégories-->
         <scene sceneID="WZ3-Sj-utG">
             <objects>
-                <tableViewController id="iBM-Pe-kYP" customClass="ListeArticlesViewController" sceneMemberID="viewController">
+                <tableViewController title="Toutes les catégories" id="iBM-Pe-kYP" customClass="ListeArticlesViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="t6e-Ao-YdZ">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -162,7 +162,7 @@
                                     <subviews>
                                         <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atD-Va-JPS">
                                             <items>
-                                                <navigationItem title="Title" id="Db9-SZ-Um7"/>
+                                                <navigationItem title="Toutes les catégories" id="Db9-SZ-Um7"/>
                                             </items>
                                         </navigationBar>
                                     </subviews>
@@ -187,7 +187,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Wo-Yt-Ib5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3777" y="-3436"/>
+            <point key="canvasLocation" x="-3543" y="-3382"/>
         </scene>
         <!--Authentification View Controller - S'authentifier-->
         <scene sceneID="BF5-I0-y85">
@@ -328,6 +328,231 @@
             </objects>
             <point key="canvasLocation" x="-4905" y="-2660"/>
         </scene>
+        <!--Liste Articles Jet View Controller - Jets-->
+        <scene sceneID="co7-X4-WAc">
+            <objects>
+                <tableViewController title="Jets" id="Tes-jh-mAv" customClass="ListeArticlesJetViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="oDQ-KM-f7p">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="2ul-fg-uYg">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IYT-R7-DKQ">
+                                            <items>
+                                                <navigationItem title="Jets" id="bWx-sI-Emo"/>
+                                            </items>
+                                        </navigationBar>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="IYT-R7-DKQ" firstAttribute="top" secondItem="2ul-fg-uYg" secondAttribute="top" type="default" id="3ix-80-kge"/>
+                                    <constraint firstItem="IYT-R7-DKQ" firstAttribute="leading" secondItem="2ul-fg-uYg" secondAttribute="leading" type="default" id="LoF-9C-c9x"/>
+                                    <constraint firstItem="IYT-R7-DKQ" firstAttribute="trailing" secondItem="2ul-fg-uYg" secondAttribute="trailing" type="default" id="bTc-Ak-oEs"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Tes-jh-mAv" id="hWD-pZ-Tq2"/>
+                            <outlet property="delegate" destination="Tes-jh-mAv" id="Xzd-wc-I6Q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Ch0-1x-lJe"/>
+                    <connections>
+                        <outlet property="ArticleTableView" destination="oDQ-KM-f7p" id="Tzh-wn-S8L"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Smx-bN-1h0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4147" y="-4136"/>
+        </scene>
+        <!--Liste Articles Techno View Controller - Technos-->
+        <scene sceneID="vBj-aF-qv3">
+            <objects>
+                <tableViewController title="Technos" id="dsn-Ru-4JY" customClass="ListeArticlesTechnoViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Dko-jB-kyN">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xfM-0N-pxI">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELQ-Zi-nAA">
+                                            <items>
+                                                <navigationItem title="Technos" id="LAi-eS-ymp"/>
+                                            </items>
+                                        </navigationBar>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="ELQ-Zi-nAA" firstAttribute="trailing" secondItem="xfM-0N-pxI" secondAttribute="trailing" type="default" id="4IH-qF-LPE"/>
+                                    <constraint firstItem="ELQ-Zi-nAA" firstAttribute="leading" secondItem="xfM-0N-pxI" secondAttribute="leading" type="default" id="SZP-3r-Z8y"/>
+                                    <constraint firstItem="ELQ-Zi-nAA" firstAttribute="top" secondItem="xfM-0N-pxI" secondAttribute="top" type="default" id="dzE-cV-E4c"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="dsn-Ru-4JY" id="cxa-mL-rXy"/>
+                            <outlet property="delegate" destination="dsn-Ru-4JY" id="Gr1-Bl-yce"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="5c3-k6-eu9"/>
+                    <connections>
+                        <outlet property="ArticleTableView" destination="Dko-jB-kyN" id="Ae8-Ny-M0V"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zzh-Dz-rdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4929" y="-4246"/>
+        </scene>
+        <!--Liste Articles Car View Controller - Voitures-->
+        <scene sceneID="dHc-Nv-RwF">
+            <objects>
+                <tableViewController title="Voitures" id="iWJ-kn-X6K" customClass="ListeArticlesCarViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nKH-y1-2J9">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="vWD-ew-8ty">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdc-3r-EF3">
+                                            <items>
+                                                <navigationItem title="Voitures" id="o9W-fE-Res"/>
+                                            </items>
+                                        </navigationBar>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="hdc-3r-EF3" firstAttribute="leading" secondItem="vWD-ew-8ty" secondAttribute="leading" type="default" id="bbV-Kx-bpi"/>
+                                    <constraint firstItem="hdc-3r-EF3" firstAttribute="top" secondItem="vWD-ew-8ty" secondAttribute="top" type="default" id="bu7-ui-dRE"/>
+                                    <constraint firstItem="hdc-3r-EF3" firstAttribute="trailing" secondItem="vWD-ew-8ty" secondAttribute="trailing" type="default" id="f39-bj-ofz"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="iWJ-kn-X6K" id="YPg-RR-6Xt"/>
+                            <outlet property="delegate" destination="iWJ-kn-X6K" id="kQg-H8-lOi"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="cNc-X1-b4t"/>
+                    <connections>
+                        <outlet property="ArticleTableView" destination="nKH-y1-2J9" id="YJg-iH-kRl"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cNc-s5-WFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4529" y="-4154"/>
+        </scene>
+        <!--Liste Articles Maison View Controller - Maisons-->
+        <scene sceneID="fWd-rn-lQu">
+            <objects>
+                <tableViewController title="Maisons" id="3fJ-44-fyE" customClass="ListeArticlesMaisonViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="OVy-Zy-2fF">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="xy4-Sq-tS5">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDY-ZD-tGf">
+                                            <items>
+                                                <navigationItem title="Maisons" id="LpL-Ay-LpM"/>
+                                            </items>
+                                        </navigationBar>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="RDY-ZD-tGf" firstAttribute="leading" secondItem="xy4-Sq-tS5" secondAttribute="leading" type="default" id="h0k-yG-6cA"/>
+                                    <constraint firstItem="RDY-ZD-tGf" firstAttribute="top" secondItem="xy4-Sq-tS5" secondAttribute="top" type="default" id="nOO-7b-tER"/>
+                                    <constraint firstItem="RDY-ZD-tGf" firstAttribute="trailing" secondItem="xy4-Sq-tS5" secondAttribute="trailing" type="default" id="q9e-fd-RuP"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3fJ-44-fyE" id="PmZ-UX-Tlp"/>
+                            <outlet property="delegate" destination="3fJ-44-fyE" id="gey-aS-x2z"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="H1H-KI-3Md"/>
+                    <connections>
+                        <outlet property="ArticleTableView" destination="OVy-Zy-2fF" id="wZh-eT-2rr"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ucl-Cc-ouM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3615" y="-3782"/>
+        </scene>
+        <!--Liste Articles Yatch View Controller - Yatchs-->
+        <scene sceneID="pH8-qP-Plf">
+            <objects>
+                <tableViewController title="Yatchs" id="1gM-hq-YPq" customClass="ListeArticlesYatchViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="4RW-ul-JBr">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="eKa-3U-DrM">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gK9-5G-sDK">
+                                            <items>
+                                                <navigationItem title="Yatchs" id="TFb-Tq-N0z"/>
+                                            </items>
+                                        </navigationBar>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="gK9-5G-sDK" firstAttribute="trailing" secondItem="eKa-3U-DrM" secondAttribute="trailing" type="default" id="NUc-dK-dRh"/>
+                                    <constraint firstItem="gK9-5G-sDK" firstAttribute="top" secondItem="eKa-3U-DrM" secondAttribute="top" type="default" id="d8E-uD-Nh5"/>
+                                    <constraint firstItem="gK9-5G-sDK" firstAttribute="leading" secondItem="eKa-3U-DrM" secondAttribute="leading" type="default" id="mg8-NM-CUC"/>
+                                </constraints>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="1gM-hq-YPq" id="iiK-BC-J9f"/>
+                            <outlet property="delegate" destination="1gM-hq-YPq" id="x6J-hI-j7b"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="qSg-vI-5Wp"/>
+                    <connections>
+                        <outlet property="ArticleTableView" destination="4RW-ul-JBr" id="SQB-RL-OmO"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U0s-el-gVC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3915" y="-4042"/>
+        </scene>
     </scenes>
     <resources>
         <image name="all@2x.png" width="73" height="65"/>
@@ -348,20 +573,42 @@
         </class>
         <class className="CategoriesViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CategoriesViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="all:"/>
-                <relationship kind="action" name="jets:"/>
-                <relationship kind="action" name="maison:"/>
-                <relationship kind="action" name="techno:"/>
-                <relationship kind="action" name="voiture:"/>
-                <relationship kind="action" name="yatch:"/>
-            </relationships>
         </class>
         <class className="EspacePersoViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EspacePersoViewController.h"/>
         </class>
+        <class className="ListeArticlesCarViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesCarViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="ListeArticlesJetViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesJetViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="ListeArticlesMaisonViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesMaisonViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="ListeArticlesTechnoViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesTechnoViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
         <class className="ListeArticlesViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="ListeArticlesYatchViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ListeArticlesYatchViewController.h"/>
             <relationships>
                 <relationship kind="outlet" name="ArticleTableView" candidateClass="UITableView"/>
             </relationships>

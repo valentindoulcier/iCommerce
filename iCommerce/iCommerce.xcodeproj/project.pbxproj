@@ -34,6 +34,11 @@
 		346C286E16CFF80D00D1BE1D /* moto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286416CFF80D00D1BE1D /* moto@2x.png */; };
 		346C286F16CFF80D00D1BE1D /* voiture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286516CFF80D00D1BE1D /* voiture@2x.png */; };
 		346C287016CFF80D00D1BE1D /* voyage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 346C286616CFF80D00D1BE1D /* voyage@2x.png */; };
+		34AAFEE316FCCFE600714C30 /* ListeArticlesCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AAFEDA16FCCFE600714C30 /* ListeArticlesCarViewController.m */; };
+		34AAFEE416FCCFE600714C30 /* ListeArticlesJetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AAFEDC16FCCFE600714C30 /* ListeArticlesJetViewController.m */; };
+		34AAFEE516FCCFE600714C30 /* ListeArticlesMaisonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AAFEDE16FCCFE600714C30 /* ListeArticlesMaisonViewController.m */; };
+		34AAFEE616FCCFE600714C30 /* ListeArticlesTechnoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AAFEE016FCCFE600714C30 /* ListeArticlesTechnoViewController.m */; };
+		34AAFEE716FCCFE600714C30 /* ListeArticlesYatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AAFEE216FCCFE600714C30 /* ListeArticlesYatchViewController.m */; };
 		34CB6DFD16FC63500001976B /* yatch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6DFB16FC63500001976B /* yatch@2x.png */; };
 		34CB6DFE16FC63500001976B /* yatch2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6DFC16FC63500001976B /* yatch2@2x.png */; };
 		34CB6E0016FC638E0001976B /* techno@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34CB6DFF16FC638E0001976B /* techno@2x.png */; };
@@ -122,6 +127,16 @@
 		346C286416CFF80D00D1BE1D /* moto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moto@2x.png"; sourceTree = "<group>"; };
 		346C286516CFF80D00D1BE1D /* voiture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voiture@2x.png"; sourceTree = "<group>"; };
 		346C286616CFF80D00D1BE1D /* voyage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voyage@2x.png"; sourceTree = "<group>"; };
+		34AAFED916FCCFE600714C30 /* ListeArticlesCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesCarViewController.h; sourceTree = "<group>"; };
+		34AAFEDA16FCCFE600714C30 /* ListeArticlesCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesCarViewController.m; sourceTree = "<group>"; };
+		34AAFEDB16FCCFE600714C30 /* ListeArticlesJetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesJetViewController.h; sourceTree = "<group>"; };
+		34AAFEDC16FCCFE600714C30 /* ListeArticlesJetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesJetViewController.m; sourceTree = "<group>"; };
+		34AAFEDD16FCCFE600714C30 /* ListeArticlesMaisonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesMaisonViewController.h; sourceTree = "<group>"; };
+		34AAFEDE16FCCFE600714C30 /* ListeArticlesMaisonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesMaisonViewController.m; sourceTree = "<group>"; };
+		34AAFEDF16FCCFE600714C30 /* ListeArticlesTechnoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesTechnoViewController.h; sourceTree = "<group>"; };
+		34AAFEE016FCCFE600714C30 /* ListeArticlesTechnoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesTechnoViewController.m; sourceTree = "<group>"; };
+		34AAFEE116FCCFE600714C30 /* ListeArticlesYatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeArticlesYatchViewController.h; sourceTree = "<group>"; };
+		34AAFEE216FCCFE600714C30 /* ListeArticlesYatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeArticlesYatchViewController.m; sourceTree = "<group>"; };
 		34CB6DFB16FC63500001976B /* yatch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yatch@2x.png"; sourceTree = "<group>"; };
 		34CB6DFC16FC63500001976B /* yatch2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yatch2@2x.png"; sourceTree = "<group>"; };
 		34CB6DFF16FC638E0001976B /* techno@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "techno@2x.png"; sourceTree = "<group>"; };
@@ -214,6 +229,16 @@
 		34A4F4F916F489D500AE5AD5 /* Liste Articles */ = {
 			isa = PBXGroup;
 			children = (
+				34AAFED916FCCFE600714C30 /* ListeArticlesCarViewController.h */,
+				34AAFEDA16FCCFE600714C30 /* ListeArticlesCarViewController.m */,
+				34AAFEDB16FCCFE600714C30 /* ListeArticlesJetViewController.h */,
+				34AAFEDC16FCCFE600714C30 /* ListeArticlesJetViewController.m */,
+				34AAFEDD16FCCFE600714C30 /* ListeArticlesMaisonViewController.h */,
+				34AAFEDE16FCCFE600714C30 /* ListeArticlesMaisonViewController.m */,
+				34AAFEDF16FCCFE600714C30 /* ListeArticlesTechnoViewController.h */,
+				34AAFEE016FCCFE600714C30 /* ListeArticlesTechnoViewController.m */,
+				34AAFEE116FCCFE600714C30 /* ListeArticlesYatchViewController.h */,
+				34AAFEE216FCCFE600714C30 /* ListeArticlesYatchViewController.m */,
 				34527FBB16CFDD97003C0A9D /* ArticleXMLParser.h */,
 				34527FBC16CFDD97003C0A9D /* ArticleXMLParser.m */,
 				34527FBE16CFDDFB003C0A9D /* Article.h */,
@@ -516,6 +541,11 @@
 				34D6AA7916F9EC4300BEE213 /* UserXMLParser.m in Sources */,
 				A78639FF16FA292C00A241CE /* MesAdressesCell.m in Sources */,
 				A7863A0516FA2A6D00A241CE /* MesAdressesViewController.m in Sources */,
+				34AAFEE316FCCFE600714C30 /* ListeArticlesCarViewController.m in Sources */,
+				34AAFEE416FCCFE600714C30 /* ListeArticlesJetViewController.m in Sources */,
+				34AAFEE516FCCFE600714C30 /* ListeArticlesMaisonViewController.m in Sources */,
+				34AAFEE616FCCFE600714C30 /* ListeArticlesTechnoViewController.m in Sources */,
+				34AAFEE716FCCFE600714C30 /* ListeArticlesYatchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,7 +35,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+/*
 - (IBAction)techno:(id)sender
 {
     ListeArticlesViewController *listeArticlesViewController = [[ListeArticlesViewController alloc] initWithNibName:@"ListeArticlesViewController" bundle:nil];
@@ -92,7 +92,7 @@
     
     [self.navigationController pushViewController:listeArticlesViewController animated:YES];
     [listeArticlesViewController release];
-}
+}*/
 
 - (void)dealloc {
     [super dealloc];

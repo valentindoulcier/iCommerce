@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListeArticlesViewController : UITableViewController
+@interface ListeArticlesCarViewController : UITableViewController
 @property (retain, nonatomic) IBOutlet UITableView *ArticleTableView;
 
 @end
