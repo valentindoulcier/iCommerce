@@ -42,7 +42,7 @@
 
 - (IBAction)authentification:(id)sender
 {
-    UserXMLParser *xmlParser = [[UserXMLParser alloc] loadXMLByURL:[@"http://icommerce.no-ip.org/listClient.php?login=" stringByAppendingString:login.text]];
+    UserXMLParser *xmlParser = [[UserXMLParser alloc] loadXMLByURL:[@"http://192.168.0.254:8090/listClient.php?login=" stringByAppendingString:login.text]];
     
     User *user = [[xmlParser user] objectAtIndex:0];
     
