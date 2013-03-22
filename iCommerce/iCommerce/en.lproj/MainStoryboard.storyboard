@@ -249,7 +249,7 @@
         <scene sceneID="WyK-Tj-unb">
             <objects>
                 <navigationController id="kcg-JX-a2I" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Listes Catégories" id="gBw-vk-T8r"/>
+                    <tabBarItem key="tabBarItem" title="Listes Catégories" image="home_selected.png" id="gBw-vk-T8r"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hk6-Aj-bZR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -268,7 +268,7 @@
         <scene sceneID="2Xw-dr-ika">
             <objects>
                 <navigationController id="pPG-TZ-hhH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Authentification" id="6O5-Xu-pW6"/>
+                    <tabBarItem key="tabBarItem" title="Authentification" image="settings_selected.png" id="6O5-Xu-pW6"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XOY-8h-31d">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -287,7 +287,9 @@
     <resources>
         <image name="all@2x.png" width="73" height="65"/>
         <image name="avion@2x.png" width="101" height="55"/>
+        <image name="home_selected.png" width="42" height="42"/>
         <image name="maison@2x.png" width="101" height="61"/>
+        <image name="settings_selected.png" width="42" height="42"/>
         <image name="techno@2x.png" width="103" height="59"/>
         <image name="voiture@2x.png" width="101" height="53"/>
         <image name="yatch2@2x.png" width="95" height="67"/>
